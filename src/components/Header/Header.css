@@ -1,24 +1,204 @@
-.header-container{
+* {
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.header-container {
     width: 100%;
     max-width: 100%;
     height: 4.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: relative; */
     /* background-color: rgb(201, 201, 201); */
 }
 
-.header-container .header{
+.header-container .header {
     width: 100%;
-    max-width: 69rem;
+    max-width: 68.8rem;
     height: 100%;
+    padding: 0 5px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-    background-color: red;
+    /* background-color: red; */
+    gap: 1.5rem;
 }
 
-.header #logo{
-    width: 7.5rem;
-    height: 1.6rem;
+/* zomato logo */
+.header #logo {
+    min-width: 7.9rem;
+    height: 1.7rem;
+}
+
+/* location & restaurant search */
+.header .search-container {
+    display: flex;
+    align-items: center;
+    width: 63.7%;
+    height: 3.3rem;
+    background: rgb(255, 255, 255);
+    border-radius: 0.48rem;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+/* location search */
+.search-container .location {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0 6px;
+}
+
+.search-container .location #location-icon {
+    font-size: 25px;
+    color: rgb(255, 126, 139);
+    padding-top: 0.4rem;
+}
+
+.search-container .location input {
+    border: none;
+    outline: none;
+}
+
+.search-container .location input::placeholder {
+    color: rgb(130, 130, 130);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.search-container .location #down-arrow-icon {
+    color: rgb(79, 79, 79);
+}
+
+/* divider b/w loction and restaurant search */
+.search-container .divider {
+    width: 0rem;
+    height: 1.2rem;
+    border: 0.05rem solid rgb(207, 207, 207);
+    margin-left: 5px;
+}
+
+/* restaurant search */
+.search-container .search {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 12px;
+}
+
+.search-container .search #search-icon {
+    font-size: 25px;
+    color: rgb(130, 130, 130);
+    padding-top: 0.4rem;
+}
+
+.search-container .search input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0 0.48rem 0.48rem 0;
+}
+
+.search-container .search input::placeholder {
+    color: rgb(130, 130, 130);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* Login-Signup */
+.header .authentications {
+    display: flex;
+    gap: 2.7rem;
+    margin-left: 3rem;
+}
+
+.header .authentications a {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    font-size: 1.1rem;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+/* bar */
+.header .bar {
+    width: 1.5rem;
+    height: 1rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.header .bar span {
+    width: 100%;
+    height: 3px;
+    display: block;
+    background-color: rgb(28, 28, 28);
+    transition: 0.25s;
+}
+
+.header-container .bar-options {
+    background-color: white;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0 0 2rem;
+    gap: 2rem;
+    transition: 0.25s;
+}
+
+.header-container .bar-options a {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    font-size: 1.1rem;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.header-container .bar-options .search-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 3.3rem;
+    background: rgb(255, 255, 255);
+    border-radius: 0.48rem;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+@media screen and (max-width: 770px) {
+    .header .search-container {
+        display: none;
+    }
+
+    .header .authentications {
+        display: none;
+    }
+
+    .header .bar {
+        display: flex;
+    }
+
+    .header-container .header {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .header-container .bar-options {
+        opacity: 0;
+    }
 }
