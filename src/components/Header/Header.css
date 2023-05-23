@@ -9,8 +9,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
-    /* background-color: rgb(201, 201, 201); */
 }
 
 .header-container .header {
