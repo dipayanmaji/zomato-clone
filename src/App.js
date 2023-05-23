@@ -9,9 +9,6 @@ function App() {
       <Home />
 
 
-
-
-
       {/* <div className='image-container'>
         <Suspense fallback={<LazyLoading />}>
           <Image url={'https://d3dyfaf3iutrxo.cloudfront.net/thumbnail/user/8b600a3b074f4e26af0ac42c99fd257d.jpeg'} />

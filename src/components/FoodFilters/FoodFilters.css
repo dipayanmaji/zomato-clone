@@ -1,0 +1,38 @@
+.food-filters-container {
+    width: 100%;
+    max-width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: seagreen; */
+}
+
+.food-filters-container .food-filters {
+    width: 100%;
+    max-width: 68.8rem;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    /* background-color: blueviolet; */
+}
+
+.food-filters .filter-option {
+    color: rgb(156, 156, 156);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 0.6rem;
+    box-shadow: rgba(54, 54, 54, 0.06) 0px 1px 2px;
+    font-size: 15px;
+    padding: 0.5rem 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.food-filters .filter-option:hover {
+    background-color: rgb(248, 248, 248);
+}
