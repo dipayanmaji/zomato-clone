@@ -2,3 +2,16 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.App .image-container{
+    height: 20rem;
+    width: 20rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.App .image-container img{
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    object-fit: cover;
+}

@@ -6,7 +6,7 @@ import { AiFillCaretDown } from 'react-icons/ai';
 import { CiSearch } from 'react-icons/ci';
 
 const Header = () => {
-    const [displayBarOptions, setDisplayBarOptions] = useState(true);
+    const [displayBarOptions, setDisplayBarOptions] = useState(false);
     return (
         <div className='header-container'>
             <div className='header'>
@@ -16,7 +16,7 @@ const Header = () => {
                     <span style={{ transform: displayBarOptions && "rotate(-45deg) translate(5px, -6px)" }}></span>
                 </div>
 
-                <img id='logo' src={zomato} alt="Zomato" />
+                <a href='/'><img id='logo' src={zomato} alt="Zomato" /></a>
 
                 <div className='search-container'>
                     <div className='location'>
@@ -39,7 +39,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div style={{ opacity: !displayBarOptions && 0 }} className='bar-options'>
+            <div style={{ opacity: !displayBarOptions && 0, zIndex: !displayBarOptions && -1 }} className='bar-options'>
                 <a href='/login'>Log in</a>
                 <a href='/signup'>Sign up</a>
 
