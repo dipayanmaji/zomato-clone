@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react'
+import React from 'react'
 import './Home.css';
 import OrderType from '../../components/OrderType/OrderType';
 import FoodFilters from '../../components/FoodFilters/FoodFilters';
@@ -17,6 +17,7 @@ import cake from "../../utils/images/inspirationFood/cake.avif";
 import iceCream from "../../utils/images/inspirationFood/iceCream.avif";
 import momos from "../../utils/images/inspirationFood/momos.avif";
 import idli from "../../utils/images/inspirationFood/idli.avif";
+import GenerateImage from '../../components/GenerateImage/GenerateImage';
 
 const inspirationFoods = [
     { imageUrl: biryani, title: "Biryani" },
@@ -44,15 +45,20 @@ const brands = [
     { imageUrl: "../../utils/images/brands/subway.avif", title: "Subway", time: "27 min" },
     { imageUrl: "../../utils/images/brands/edabba.avif", title: "Edabba", time: "29 min" },
 ]
+
 function Home() {
 
     return (
         <div className='home'>
+
             <OrderType />
             <FoodFilters />
 
             <div className='inspiration-foods-container'>
                 <div className='inspiration-foods-items'>
+                    <div style={{ height: "5rem", width: "5rem", backgroundColor: 'red' }}>
+                        <GenerateImage src="https://d3dyfaf3iutrxo.cloudfront.net/thumbnail/user/8b600a3b074f4e26af0ac42c99fd257d.jpeg" alt="me" />
+                    </div>
                     <section className='scroll-btn' id='prev-btn'><MdOutlineArrowBackIos /></section>
                     <h3>Inspiration for your first order</h3>
                     <div className='all-food-items'>
@@ -60,7 +66,8 @@ function Home() {
                             inspirationFoods.map((item, index) => {
                                 return <div className='item-container' key={index}>
                                     <div className='item-image-div'>
-                                        <img src={item.imageUrl} alt={item.title} loading='lazy' />
+                                        <GenerateImage url={item.imageUrl} alt={item.title} />
+                                        {/* <img src={item.imageUrl} alt={item.title} loading='lazy' onError={replaceImage} /> */}
                                     </div>
                                     <span className='item-title'>{item.title}</span>
                                 </div>

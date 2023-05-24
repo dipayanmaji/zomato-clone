@@ -96,10 +96,10 @@
 }
 
 .all-food-items .item-container .item-image-div img {
-    width: 9.8rem;
+    /* width: 9.8rem;
     height: 9.8rem;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 50%; */
 }
 
 .all-food-items .item-container .item-title {

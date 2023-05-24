@@ -1,8 +1,8 @@
 import './App.css';
 import React, { lazy, Suspense } from 'react';
-import LazyLoading from './components/LazyLoading/LazyLoading';
+// import LazyLoading from './components/LazyLoading/LazyLoading';
 import Home from './pages/Home/Home';
-const Image = lazy(() => import('./components/Image'));
+// const Image = lazy(() => import('./components/Image'));
 function App() {
   return (
     <div className="App">
