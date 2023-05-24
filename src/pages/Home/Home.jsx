@@ -49,15 +49,11 @@ const brands = [
 function Home() {
     const [scrollLength, setScrollLength] = useState(0);
 
-    const scroolHandler = (e) => {
-        const id = e.target.id;
-        console.log(id);
-        if (id == 'prev-btn') {
-            setScrollLength(scrollLength + 189);
-        }
-        else {
-            setScrollLength(scrollLength - 189);
-        }
+    const prevScroolHandler = () => {
+        setScrollLength(scrollLength + 189);
+    }
+    const nextScroolHandler = () => {
+        setScrollLength(scrollLength - 189);
     }
 
     return (
@@ -68,9 +64,10 @@ function Home() {
 
             <div className='inspiration-foods-container'>
                 <div className='inspiration-foods-items'>
-                    {scrollLength < 0 && <section className='scroll-btn' id='prev-btn' onClick={scroolHandler}><MdOutlineArrowBackIos id='prev-btn' onClick={scroolHandler} /></section>}
                     <h3>Inspiration for your first order</h3>
-                    <div className='all-food-items' style={{ transform: `translate(${scrollLength}px)` }}>
+                    {scrollLength < 0 && <section className='scroll-btn' id='prev-btn' onClick={prevScroolHandler}><MdOutlineArrowBackIos /></section>}
+                    <section className='all-food-items-container'>
+                        <div className='all-food-items' style={{ transform: `translate(${scrollLength}px)` }}>
                         {
                             inspirationFoods.map((item, index) => {
                                 return <div className='item-container' key={index}>
@@ -81,8 +78,10 @@ function Home() {
                                 </div>
                             })
                         }
-                    </div>
-                    {scrollLength > -1134 && <section className='scroll-btn' id='next-btn' onClick={scroolHandler}><MdOutlineArrowForwardIos id='next-btn' onClick={scroolHandler} /></section>}
+                        </div>
+                    </section>
+
+                    {scrollLength > -1134 && <section className='scroll-btn' id='next-btn' onClick={nextScroolHandler}><MdOutlineArrowForwardIos /></section>}
                 </div>
             </div>
         </div>

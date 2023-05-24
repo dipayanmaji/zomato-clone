@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import defaultImage from '../../utils/images/placeholder.webp';
 import LazyLoading from '../LazyLoading/LazyLoading';
 
@@ -12,21 +12,22 @@ function GenerateImage({ url, alt }) {
         setLoaded(true);
     }
 
-    useState(() => {
-        setTimeout(() => {
-            setLoaded(true);
-        }, 5000)
-    }, [])
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setLoaded(true);
+    //     }, 2000)
+    // }, [])
 
     return (
         <>
+            {!loaded && <LazyLoading />}
+
             <img style={{ display: !loaded ? 'none' : 'block', height: 'inherit', width: 'inherit', borderRadius: '50%', objectFit: 'cover' }}
                 src={url} alt={alt}
                 loading='lazy'
-                onError={replaceImage}
                 onLoad={displayImage}
+                onError={replaceImage}
             />
-            {!loaded && <LazyLoading />}
         </>
     )
 }
