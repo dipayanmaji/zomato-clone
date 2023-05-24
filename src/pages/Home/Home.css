@@ -18,7 +18,7 @@
 .home .inspiration-foods-container .inspiration-foods-items {
     width: 100%;
     max-width: 68.8rem;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -26,6 +26,7 @@
     /* gap: 1rem; */
     /* background-color: violet; */
     position: relative;
+    overflow: hidden;
 }
 
 .inspiration-foods-container .inspiration-foods-items .scroll-btn {
@@ -39,15 +40,16 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    z-index: 2;
 }
 
 .inspiration-foods-container .inspiration-foods-items #prev-btn {
-    left: 0;
+    left: 0.6rem;
     top: 50%;
 }
 
 .inspiration-foods-container .inspiration-foods-items #next-btn {
-    right: 0;
+    right: 0.6rem;
     top: 50%;
 }
 
@@ -74,7 +76,13 @@
 .inspiration-foods-container .inspiration-foods-items .all-food-items {
     display: flex;
     gap: 2rem;
-    overflow: hidden;
+    transition: 0.8s;
+    transform: translateX(-189px);
+    transform: translateX(-378px);
+    transform: translateX(-567px);
+    transform: translateX(-756px);
+    transform: translateX(-945px);
+    transform: translateX(-1134px);
 }
 
 .inspiration-foods-items .all-food-items .item-container {

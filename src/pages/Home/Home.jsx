@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Home.css';
 import OrderType from '../../components/OrderType/OrderType';
 import FoodFilters from '../../components/FoodFilters/FoodFilters';
@@ -47,6 +47,18 @@ const brands = [
 ]
 
 function Home() {
+    const [scrollLength, setScrollLength] = useState(0);
+
+    const scroolHandler = (e) => {
+        const id = e.target.id;
+        console.log(id);
+        if (id == 'prev-btn') {
+            setScrollLength(scrollLength + 189);
+        }
+        else {
+            setScrollLength(scrollLength - 189);
+        }
+    }
 
     return (
         <div className='home'>
@@ -56,25 +68,21 @@ function Home() {
 
             <div className='inspiration-foods-container'>
                 <div className='inspiration-foods-items'>
-                    <div style={{ height: "5rem", width: "5rem", backgroundColor: 'red' }}>
-                        <GenerateImage src="https://d3dyfaf3iutrxo.cloudfront.net/thumbnail/user/8b600a3b074f4e26af0ac42c99fd257d.jpeg" alt="me" />
-                    </div>
-                    <section className='scroll-btn' id='prev-btn'><MdOutlineArrowBackIos /></section>
+                    {scrollLength < 0 && <section className='scroll-btn' id='prev-btn' onClick={scroolHandler}><MdOutlineArrowBackIos id='prev-btn' onClick={scroolHandler} /></section>}
                     <h3>Inspiration for your first order</h3>
-                    <div className='all-food-items'>
+                    <div className='all-food-items' style={{ transform: `translate(${scrollLength}px)` }}>
                         {
                             inspirationFoods.map((item, index) => {
                                 return <div className='item-container' key={index}>
                                     <div className='item-image-div'>
                                         <GenerateImage url={item.imageUrl} alt={item.title} />
-                                        {/* <img src={item.imageUrl} alt={item.title} loading='lazy' onError={replaceImage} /> */}
                                     </div>
                                     <span className='item-title'>{item.title}</span>
                                 </div>
                             })
                         }
                     </div>
-                    <section className='scroll-btn' id='next-btn'><MdOutlineArrowForwardIos /></section>
+                    {scrollLength > -1134 && <section className='scroll-btn' id='next-btn' onClick={scroolHandler}><MdOutlineArrowForwardIos id='next-btn' onClick={scroolHandler} /></section>}
                 </div>
             </div>
         </div>
