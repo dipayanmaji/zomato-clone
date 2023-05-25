@@ -21,6 +21,7 @@
     align-items: center;
     gap: 1rem;
     overflow: auto hidden;
+    margin: 0 1rem;
     /* background-color: rgb(106, 106, 106); */
 }
 
@@ -77,7 +78,7 @@
         display: none;
     }
 
-    .orderType-container .orderType {
+    /* .orderType-container .orderType {
         flex-direction: column;
-    }
+    } */
 }

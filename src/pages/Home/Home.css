@@ -15,7 +15,16 @@
     background-color: rgb(248, 248, 248);
 }
 
-.home .inspiration-foods-container .inspiration-foods-items {
+.home .brands-container {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .inspiration-foods-container .inspiration-foods-items,
+.home .brands-container .brands-items {
     width: 100%;
     max-width: 68.8rem;
     margin: 0 0.5rem;
@@ -25,7 +34,18 @@
     /* background-color: violet; */
 }
 
-.inspiration-foods-container .inspiration-foods-items .scroll-btn {
+.inspiration-foods-container .inspiration-foods-items h3,
+.brands-container .brands-items h3 {
+    color: rgb(28, 28, 28);
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0px 0px 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.8s;
+}
+
+.inspiration-foods-container .inspiration-foods-items .scroll-btn,
+.brands-container .brands-items .scroll-btn {
     position: absolute;
     width: 2.2rem;
     height: 2.2rem;
@@ -44,36 +64,42 @@
     top: 50%;
 }
 
+.brands-container .brands-items #prev-btn {
+    left: -1.2rem;
+    top: 40%;
+}
+
 .inspiration-foods-container .inspiration-foods-items #next-btn {
     right: -1.2rem;
     top: 50%;
 }
 
-.inspiration-foods-container .inspiration-foods-items .scroll-btn:hover {
+.brands-container .brands-items #next-btn {
+    right: -1.2rem;
+    top: 40%;
+}
+
+.inspiration-foods-container .inspiration-foods-items .scroll-btn:hover,
+.brands-container .brands-items .scroll-btn:hover {
     background-color: rgb(248, 248, 248);
 }
 
-.inspiration-foods-container .inspiration-foods-items .scroll-btn:active {
+.inspiration-foods-container .inspiration-foods-items .scroll-btn:active,
+.brands-container .brands-items .scroll-btn:active {
     background-color: rgb(225, 225, 225);
     width: 1.6rem;
     height: 1.6rem;
     border: 0.3rem solid pink;
 }
 
-.inspiration-foods-container .inspiration-foods-items h3 {
-    color: rgb(28, 28, 28);
-    font-size: 2rem;
-    font-weight: 400;
-    margin: 0px 0px 2rem;
-    /* letter-spacing: 0.2px; */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.inspiration-foods-container .inspiration-foods-items .all-food-items-container{
+.inspiration-foods-container .inspiration-foods-items .all-food-items-container,
+.brands-container .brands-items .all-brands-container {
     overflow: hidden;
+    transition: 0.8s;
 }
 
-.inspiration-foods-items .all-food-items-container .all-food-items {
+.inspiration-foods-items .all-food-items-container .all-food-items,
+.brands-items .all-brands-container .all-brands {
     width: 100%;
     display: flex;
     gap: 2rem;
@@ -81,30 +107,77 @@
     /* background-color: aqua; */
 }
 
-.all-food-items-container .all-food-items .item-container {
+.all-food-items-container .all-food-items .item-container,
+.all-brands-container .all-brands .brand-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 0.5rem;
     cursor: pointer;
 }
 
-.all-food-items .item-container .item-image-div {
+.all-food-items .item-container .item-image-div,
+.all-brands .brand-container .brand-image-div {
     width: 9.8rem;
     height: 9.8rem;
     border-radius: 50%;
     overflow: hidden;
+    border: 0.5px solid rgb(232, 232, 232);
     box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 12px;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 
-.all-food-items .item-container .item-title {
+.all-food-items .item-container .item-image-div img {
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.all-brands .brand-container .brand-image-div img {
+    width: 7.5rem;
+    height: 7.5rem;
+    object-fit: cover;
+}
+
+.all-food-items .item-container .item-title,
+.all-brands .brand-container .brand-title,
+.all-brands .brand-container .brand-time {
     color: rgb(54, 54, 54);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
-    overflow: hidden;
+    /* overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: nowrap; */
+    text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+@media screen and (max-width: 1140px) {
+
+    .inspiration-foods-container .inspiration-foods-items h3,
+    .brands-container .brands-items h3 {
+        margin: 0 1rem 2rem 1rem;
+    }
+
+    .inspiration-foods-container .inspiration-foods-items .all-food-items-container,
+    .brands-container .brands-items .all-brands-container {
+        margin: 0 1rem;
+    }
+
+    .inspiration-foods-container .inspiration-foods-items #prev-btn,
+    .brands-container .brands-items #prev-btn {
+        left: 0;
+    }
+
+    .inspiration-foods-container .inspiration-foods-items #next-btn,
+    .brands-container .brands-items #next-btn {
+        right: 0;
+    }
 }

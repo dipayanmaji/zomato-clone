@@ -1,0 +1,15 @@
+.restaurants-container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.restaurants-container .restaurants {
+    width: 100%;
+    max-width: 68.8rem;
+    display: flex;
+    /* background-color: rgb(106, 106, 106); */
+}

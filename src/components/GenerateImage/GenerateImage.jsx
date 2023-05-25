@@ -12,17 +12,17 @@ function GenerateImage({ url, alt }) {
         setLoaded(true);
     }
 
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         setLoaded(true);
-    //     }, 2000)
-    // }, [])
+    useEffect(() => {
+        setTimeout(() => {
+            setLoaded(true);
+        }, 2000)
+    }, [])
 
     return (
         <>
             {!loaded && <LazyLoading />}
 
-            <img style={{ display: !loaded ? 'none' : 'block', height: 'inherit', width: 'inherit', borderRadius: '50%', objectFit: 'cover' }}
+            <img style={{ display: !loaded ? 'none' : 'block' }}
                 src={url} alt={alt}
                 loading='lazy'
                 onLoad={displayImage}
