@@ -44,6 +44,11 @@
 .footer .social-media {
     display: flex;
     gap: 1rem;
+    overflow: auto;
+}
+
+.footer .social-media::-webkit-scrollbar {
+    display: none;
 }
 
 .footer .social-media a {

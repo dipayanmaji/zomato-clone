@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0.5px 0px rgb(232, 232, 232);
+    margin-bottom: 1px;
     /* background-color: green; */
 }
 
@@ -77,8 +78,4 @@
     .options-container .option-urderline {
         display: none;
     }
-
-    /* .orderType-container .orderType {
-        flex-direction: column;
-    } */
 }

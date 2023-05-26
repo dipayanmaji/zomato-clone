@@ -15,7 +15,7 @@ function App() {
         </Suspense>
       </div> */}
 
-      <section>
+      {/* <section>
         <section>
           <section>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, repellat accusantium sit libero maiores
@@ -530,7 +530,7 @@ function App() {
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, repellat accusantium sit libero maiores
           accusamus
           dolor beatae, itaque ipsa mollitia eligendi nulla odit ex dolorem voluptate architecto! Dolorem, libero fuga.</p>
-      </section>
+      </section> */}
     </div>
   );
 }
