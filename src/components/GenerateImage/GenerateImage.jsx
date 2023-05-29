@@ -12,11 +12,11 @@ function GenerateImage({ url, alt }) {
         setLoaded(true);
     }
 
-    useEffect(() => {
-        setTimeout(() => {
-            setLoaded(true);
-        }, 2000)
-    }, [])
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setLoaded(true);
+    //     }, 2000)
+    // }, [])
 
     return (
         <>
