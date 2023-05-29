@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Home.css';
 import OrderType from '../../components/OrderType/OrderType';
 import FoodFilters from '../../components/FoodFilters/FoodFilters';
@@ -61,6 +61,10 @@ const brands = [
 function Home() {
     const [itemsScrollLength, setItemsScrollLength] = useState(0);
     const [brandsScrollLength, setBrandsScrollLength] = useState(0);
+
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+    }, [])
 
     const itemsPrevScroolHandler = () => {
         setItemsScrollLength(itemsScrollLength + 189);

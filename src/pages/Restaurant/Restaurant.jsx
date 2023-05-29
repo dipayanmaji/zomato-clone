@@ -1,26 +1,21 @@
-import axios from 'axios';
 import './Restaurant.css';
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import {restaurantDetails} from '../../utils/restaurantDetails/restaurantDetails';
 
 const Restaurant = () => {
     const params = useParams();
-    const getRestaurantDetails = async () => {
-        try {
-            const result = await axios.get("https://www.zomato.com/webroutes/getPage?page_url=/kolkata/hatari-dhakuria")
-            console.log("result", result);
-        }
-        catch (err) {
-            console.log("error", err);
-        }
-    }
     useEffect(() => {
-        getRestaurantDetails();
+        window.scrollTo(0, 0);
+        const restaurantId = params.id;
+        const lastDizitOfId = restaurantId.charAt(restaurantId.length - 1);
+        console.log(restaurantDetails[lastDizitOfId]);
     }, [])
 
     return (
         <div className='restaurant-page'>
-            Restaurant page: {params.restaurant}
+            Restaurant name: {params.restaurant}<br />
+            Restaurant ID: {params.id}
         </div>
     )
 }

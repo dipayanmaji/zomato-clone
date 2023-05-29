@@ -11,6 +11,8 @@
     border-radius: 1rem;
     cursor: pointer;
     border: 0.5px solid rgb(255, 255, 255);
+    text-decoration: none;
+    color: inherit;
 }
 
 .generate-restaurant:hover {

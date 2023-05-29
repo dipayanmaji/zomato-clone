@@ -1,11 +1,19 @@
-import GenerateImage from '../GenerateImage/GenerateImage';
 import './GenerateRestaurant.css';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { AiFillStar } from 'react-icons/ai';
+import GenerateImage from '../GenerateImage/GenerateImage';
+import { Link } from 'react-router-dom';
 
 let interval;
 const GenerateRestaurant = ({ restaurant }) => {
     let [rotation, setRotation] = useState(false);
+
+    useEffect(()=>{
+        return ()=>{
+            clearInterval(interval);
+        }
+    }, [])
+
     const startRotated = () => {
         if (!restaurant.bottomContainers[1]) return;
         console.log("mouse enter")
@@ -22,7 +30,7 @@ const GenerateRestaurant = ({ restaurant }) => {
     }
 
     return (
-        <div className='generate-restaurant' onMouseEnter={startRotated} onMouseLeave={stopRotated}>
+        <Link to={`${restaurant.order.actionInfo.clickUrl}/${restaurant.info.resId}`} className='generate-restaurant' onMouseEnter={startRotated} onMouseLeave={stopRotated}>
             <div className='restaurant-image'>
                 <div className='promoted'>Promoted</div>
                 {restaurant.bulkOffers.length > 0 && <div className='offer'>{restaurant.bulkOffers[0]?.text}</div>}
@@ -74,7 +82,7 @@ const GenerateRestaurant = ({ restaurant }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </Link>
     )
 }
 
