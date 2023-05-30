@@ -1,17 +1,22 @@
 import './Restaurant.css';
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { dummyRestaurantsDetails } from '../../utils/restaurantDetails/restaurantDetails';
 import GenerateImage from '../../components/GenerateImage/GenerateImage';
+import { AiFillStar } from 'react-icons/ai';
 
 const Restaurant = () => {
     const params = useParams();
+    const navigate = useNavigate();
     const [restaurantDetails, setRestaurantDetails] = useState({});
 
     useEffect(() => {
         window.scrollTo(0, 0);
         const restaurantId = params.id;
         const lastDizitOfId = restaurantId.charAt(restaurantId.length - 1);
+        if (isNaN(lastDizitOfId)) {
+            navigate('*');
+        }
         setTimeout(() => {
             setRestaurantDetails(dummyRestaurantsDetails[lastDizitOfId]);
         }, 2000)
@@ -25,7 +30,7 @@ const Restaurant = () => {
                         <div className='restaurant-images'>
                             <div className='image1'>
                                 <GenerateImage
-                                    url={restaurantDetails.page_data.sections?.SECTION_BASIC_INFO.res_thumb}
+                                    url={restaurantDetails.page_data.sections.SECTION_BASIC_INFO.res_thumb}
                                     alt={"image1"}
                                 />
                             </div>
@@ -48,6 +53,40 @@ const Restaurant = () => {
                                     url={restaurantDetails.entities.IMAGES[restaurantDetails.page_data.sections.SECTION_IMAGE_CAROUSEL.entities[0].entity_ids[2]].thumbUrl}
                                     alt={"image4"}
                                 />
+                            </div>
+                        </div>
+
+                        <div className='restaurant-info'>
+                            <div className='name-rating'>
+                                <h1 className='name'>{restaurantDetails.page_data.sections.SECTION_BASIC_INFO.name}</h1>
+                                <div className='rating'>
+                                    <div className='dining-reviews'>
+                                        <div className='star-rating' style={{ backgroundColor: restaurantDetails.page_data.sections.SECTION_BASIC_INFO.rating_new.ratings.DINING.bgColorV2.type }}>
+                                            {restaurantDetails.page_data.sections.SECTION_BASIC_INFO.rating_new.ratings.DINING.rating}
+                                            <AiFillStar />
+                                        </div>
+                                        <div className='subtitle'>
+                                            <div className='reviewCount'>{restaurantDetails.page_data.sections.SECTION_BASIC_INFO.rating_new.ratings.DINING.reviewCount}</div>
+                                            <div className='sideSubTitle'>{restaurantDetails.page_data.sections.SECTION_BASIC_INFO.rating_new.ratings.DINING.sideSubTitle}</div>
+                                        </div>
+                                    </div>
+
+                                    <div className='delivery-reviews'>
+                                        <div className='star-rating' style={{ backgroundColor: restaurantDetails.page_data.sections.SECTION_BASIC_INFO.rating_new.ratings.DELIVERY.bgColorV2.type }}>
+                                            {restaurantDetails.page_data.sections.SECTION_BASIC_INFO.rating_new.ratings.DELIVERY.rating}
+                                            <AiFillStar />
+                                        </div>
+                                        <div className='subtitle'>
+                                            <div className='reviewCount'>{restaurantDetails.page_data.sections.SECTION_BASIC_INFO.rating_new.ratings.DELIVERY.reviewCount}</div>
+                                            <div className='sideSubTitle'>{restaurantDetails.page_data.sections.SECTION_BASIC_INFO.rating_new.ratings.DELIVERY.sideSubTitle}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='cuisine-address'>
+                                <div className='cuisine'>{restaurantDetails.page_data.sections.SECTION_BASIC_INFO.cuisine_string}</div>
+                                <div className='address'>{restaurantDetails.page_data.sections.SECTION_RES_HEADER_DETAILS.LOCALITY.text}</div>
                             </div>
                         </div>
                     </div>

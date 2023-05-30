@@ -8,10 +8,11 @@
 .restaurant-page .restaurant-details {
     width: 100%;
     max-width: 68.8rem;
-    /* background-color: aquamarine; */
     margin: 0 1rem;
+    /* background-color: aquamarine; */
 }
 
+/* Images */
 .restaurant-page .restaurant-details .restaurant-images {
     height: 23rem;
     width: 100%;
@@ -63,4 +64,81 @@
 
 .restaurant-page .restaurant-details .restaurant-images img:hover {
     transform: scale(1.05);
+}
+
+/* Title & Rating */
+.restaurant-page .restaurant-details .restaurant-info .name-rating {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.restaurant-details .restaurant-info .name-rating .name {
+    width: 65%;
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.restaurant-details .restaurant-info .name-rating .rating {
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurant-info .name-rating .rating .dining-reviews {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.restaurant-info .name-rating .rating .delivery-reviews {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.restaurant-info .name-rating .rating .star-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 5px;
+    border-radius: 5px 5px;
+    color: white;
+    /* background-color: rgb(36, 150, 63); */
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.restaurant-info .name-rating .rating .star-rating svg {
+    font-size: 0.8rem;
+}
+
+.restaurant-info .name-rating .rating .subtitle .reviewCount {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.restaurant-info .name-rating .rating .subtitle .sideSubTitle {
+    font-size: 13px;
+    color: rgb(54, 54, 54);
+    padding-bottom: 2px;
+    border-bottom: 0.5px dashed rgb(181, 181, 181);
+}
+
+/* cuisine & address */
+.restaurant-details .restaurant-info .cuisine-address {
+    color: rgb(130, 130, 130);
+    margin-top: 0.5rem;
+}
+
+.restaurant-details .restaurant-info .cuisine-address .cuisine {}
+
+.restaurant-details .restaurant-info .cuisine-address .address {
+    margin-top: 0.5rem;
 }
