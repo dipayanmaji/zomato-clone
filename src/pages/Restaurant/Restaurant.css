@@ -1,0 +1,66 @@
+.restaurant-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurant-page .restaurant-details {
+    width: 100%;
+    max-width: 68.8rem;
+    /* background-color: aquamarine; */
+    margin: 0 1rem;
+}
+
+.restaurant-page .restaurant-details .restaurant-images {
+    height: 23rem;
+    width: 100%;
+    display: flex;
+    gap: 0.4rem;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.restaurant-page .restaurant-details .restaurant-images .image1 {
+    width: 62%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.restaurant-page .restaurant-details .restaurant-images .middle-images {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.restaurant-page .restaurant-details .restaurant-images .image2 {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.restaurant-page .restaurant-details .restaurant-images .image3 {
+    width: 100%;
+    height: 49%;
+    overflow: hidden;
+}
+
+.restaurant-page .restaurant-details .restaurant-images .image4 {
+    width: 19%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.restaurant-page .restaurant-details .restaurant-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.restaurant-page .restaurant-details .restaurant-images img:hover {
+    transform: scale(1.05);
+}
