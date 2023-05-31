@@ -4,11 +4,15 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { dummyRestaurantsDetails } from '../../utils/restaurantDetails/restaurantDetails';
 import GenerateImage from '../../components/GenerateImage/GenerateImage';
 import { AiFillStar } from 'react-icons/ai';
+import { GoInfo } from 'react-icons/go';
+import { MdOutlineArrowBackIos } from 'react-icons/md';
+import RestaurantItems from '../../components/RestaurantItems/RestaurantItems';
 
 const Restaurant = () => {
     const params = useParams();
     const navigate = useNavigate();
     const [restaurantDetails, setRestaurantDetails] = useState({});
+    const [displayTimings, setDisplayTimings] = useState(false);
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -88,7 +92,21 @@ const Restaurant = () => {
                                 <div className='cuisine'>{restaurantDetails.page_data.sections.SECTION_BASIC_INFO.cuisine_string}</div>
                                 <div className='address'>{restaurantDetails.page_data.sections.SECTION_RES_HEADER_DETAILS.LOCALITY.text}</div>
                             </div>
+
+                            <div className='opening-hours'>Opening Hours
+                                <GoInfo onMouseOver={() => setDisplayTimings(true)} onMouseLeave={() => setDisplayTimings(false)} />
+                                <div className='timings' style={{ display: displayTimings && "flex" }}>
+                                    <MdOutlineArrowBackIos />
+                                    {
+                                        restaurantDetails.page_data.sections.SECTION_BASIC_INFO.timing.customised_timings.opening_hours.map((everyTime, index) => {
+                                            return <div key={index} className='every-timing'>{everyTime.days}: {everyTime.timing}</div>
+                                        })
+                                    }
+                                </div>
+                            </div>
                         </div>
+                        <hr />
+                        <RestaurantItems menus={restaurantDetails.page_data.order.menuList.menus} orderDetails={restaurantDetails.page_data.orderDetails} />
                     </div>
                     :
                     <div>Loading...</div>

@@ -93,22 +93,22 @@
     width: 49%;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .restaurant-info .name-rating .rating .delivery-reviews {
     width: 49%;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .restaurant-info .name-rating .rating .star-rating {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4px 5px;
-    border-radius: 5px 5px;
+    padding: 0.23rem 0.26rem;
+    border-radius: 0.26rem;
     color: white;
     /* background-color: rgb(36, 150, 63); */
     font-size: 1rem;
@@ -121,14 +121,14 @@
 
 .restaurant-info .name-rating .rating .subtitle .reviewCount {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.85rem;
 }
 
 .restaurant-info .name-rating .rating .subtitle .sideSubTitle {
-    font-size: 13px;
+    font-size: 0.8rem;
     color: rgb(54, 54, 54);
-    padding-bottom: 2px;
-    border-bottom: 0.5px dashed rgb(181, 181, 181);
+    padding-bottom: 0.1rem;
+    border-bottom: 0.01rem dashed rgb(181, 181, 181);
 }
 
 /* cuisine & address */
@@ -137,8 +137,70 @@
     margin-top: 0.5rem;
 }
 
-.restaurant-details .restaurant-info .cuisine-address .cuisine {}
-
 .restaurant-details .restaurant-info .cuisine-address .address {
     margin-top: 0.5rem;
+}
+
+/* opening hours */
+.restaurant-details .restaurant-info .opening-hours {
+    width: max-content;
+    margin-top: 0.5rem;
+    color: rgb(244, 162, 102);
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    position: relative;
+}
+
+.restaurant-details .restaurant-info .opening-hours svg {
+    cursor: pointer;
+    color: rgb(156 156 156);
+    font-size: 1.2rem;
+    rotate: 10deg;
+}
+
+.restaurant-details .restaurant-info .opening-hours svg:hover {
+    color: rgb(100, 100, 100);
+}
+
+.restaurant-details .restaurant-info .opening-hours .timings {
+    width: max-content;
+    height: max-content;
+    min-width: 5rem;
+    min-height: 2rem;
+    padding: 0.7rem;
+    border: 0.1rem solid rgb(202 202 202);
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 5px -1px;
+    position: absolute;
+    top: -1rem;
+    left: 8.7rem;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.restaurant-details .restaurant-info .opening-hours .timings svg {
+    position: absolute;
+    left: -0.72rem;
+    top: 1rem;
+    color: rgb(202 202 202);
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 1rem;
+    rotate: 0deg;
+}
+
+.restaurant-details .restaurant-info .opening-hours .timings .every-timing {
+    color: rgb(90 90 90);
+    font-family: cursive;
+}
+
+.restaurant-page .restaurant-details hr {
+    width: 100%;
+    height: 0.03rem;
+    border-color: transparent;
+    border-radius: 0.7rem;
+    background-color: rgba(207, 207, 207, 0.62);
 }
