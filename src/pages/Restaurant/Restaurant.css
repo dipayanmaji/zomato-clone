@@ -67,6 +67,13 @@
 }
 
 /* Title & Rating */
+.restaurant-page .restaurant-details .restaurant-info {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
 .restaurant-page .restaurant-details .restaurant-info .name-rating {
     width: 100%;
     display: flex;
@@ -81,6 +88,9 @@
     font-weight: 500;
     margin: 0;
     padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .restaurant-details .restaurant-info .name-rating .rating {
@@ -137,8 +147,17 @@
     margin-top: 0.5rem;
 }
 
+.restaurant-details .restaurant-info .cuisine-address .cuisine {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .restaurant-details .restaurant-info .cuisine-address .address {
     margin-top: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* opening hours */
@@ -197,10 +216,49 @@
     font-family: cursive;
 }
 
-.restaurant-page .restaurant-details hr {
+.restaurant-page .restaurant-details .restaurant-info hr {
     width: 100%;
     height: 0.03rem;
     border-color: transparent;
     border-radius: 0.7rem;
     background-color: rgba(207, 207, 207, 0.62);
+}
+
+.restaurant-page .restaurant-details .last-divider {
+    width: 100%;
+    border: 1px solid rgb(228 228 228);
+    margin: 1rem 0px 1.6rem;
+}
+
+@media screen and (max-width: 770px) {
+    .restaurant-details .restaurant-info .name-rating .name {
+        width: 55%;
+    }
+
+    .restaurant-details .restaurant-info .name-rating .rating {
+        width: 42%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .restaurant-details .restaurant-info .name-rating {
+        overflow: auto;
+    }
+
+    .restaurant-details .restaurant-info ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .restaurant-details .restaurant-info .name-rating .name {
+        font-size: 1.8rem;
+        width: 49%;
+    }
+
+    .restaurant-details .restaurant-info .name-rating .rating {
+        width: 49%;
+    }
+
+    .restaurant-info .name-rating .rating .subtitle .reviewCount {
+        display: none;
+    }
 }

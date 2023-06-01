@@ -1,0 +1,95 @@
+.item {
+    width: 95%;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    .item-images {
+        position: relative;
+
+        .main-image {
+            width: 8rem;
+            height: 8rem;
+            border-radius: 0.5rem;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: inherit;
+            }
+        }
+
+        .tag-image {
+            width: 0.8rem;
+            position: absolute;
+            top: 0.4rem;
+            right: 0.4rem;
+        }
+    }
+
+    .item-details {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .item-name {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: rgb(28, 28, 28);
+            margin: 0px;
+        }
+
+        .tags {
+            display: flex;
+            gap: 1rem;
+
+            .tag {
+                height: max-content;
+                width: max-content;
+                padding: 0.2rem 0.5rem;
+                border-radius: 0.25rem;
+                color: rgb(255, 255, 255);
+                font-size: 0.8rem;
+                line-height: 0.75rem;
+                white-space: nowrap;
+            }
+        }
+
+        .votes {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            .vote-stars {
+                color: rgb(243, 193, 23);
+            }
+
+            .vote-text {
+                color: rgb(156, 156, 156);
+            }
+        }
+
+        .item-price {
+            font-size: 0.9rem;
+            color: rgb(108 108 108);
+        }
+
+        .item-description {
+            font-size: 0.9rem;
+            color: rgb(108 108 108);
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .item {
+        width: 100%;
+    }
+}

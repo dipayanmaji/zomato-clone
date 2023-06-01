@@ -14,6 +14,7 @@ const Restaurant = () => {
     const [restaurantDetails, setRestaurantDetails] = useState({});
     const [displayTimings, setDisplayTimings] = useState(false);
 
+
     useEffect(() => {
         window.scrollTo(0, 0);
         const restaurantId = params.id;
@@ -21,6 +22,8 @@ const Restaurant = () => {
         if (isNaN(lastDizitOfId)) {
             navigate('*');
         }
+
+        document.title = dummyRestaurantsDetails[lastDizitOfId].page_info?.pageTitle + " Clone";
         setTimeout(() => {
             setRestaurantDetails(dummyRestaurantsDetails[lastDizitOfId]);
         }, 2000)
@@ -104,9 +107,12 @@ const Restaurant = () => {
                                     }
                                 </div>
                             </div>
+                            <hr />
                         </div>
-                        <hr />
-                        <RestaurantItems menus={restaurantDetails.page_data.order.menuList.menus} orderDetails={restaurantDetails.page_data.orderDetails} />
+
+                        <RestaurantItems menuList={restaurantDetails.page_data.order.menuList} orderDetails={restaurantDetails.page_data.orderDetails} />
+
+                        <hr className='last-divider' />
                     </div>
                     :
                     <div>Loading...</div>
