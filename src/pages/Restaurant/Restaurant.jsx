@@ -7,6 +7,7 @@ import { AiFillStar } from 'react-icons/ai';
 import { GoInfo } from 'react-icons/go';
 import { MdOutlineArrowBackIos } from 'react-icons/md';
 import RestaurantItems from '../../components/RestaurantItems/RestaurantItems';
+import RestaurantLoading from '../../components/RestaurantLoading/RestaurantLoading';
 
 const Restaurant = () => {
     const params = useParams();
@@ -26,7 +27,7 @@ const Restaurant = () => {
         document.title = dummyRestaurantsDetails[lastDizitOfId].page_info?.pageTitle + " Clone";
         setTimeout(() => {
             setRestaurantDetails(dummyRestaurantsDetails[lastDizitOfId]);
-        }, 2000)
+        }, 3000)
     }, [])
 
     return (
@@ -115,7 +116,7 @@ const Restaurant = () => {
                         <hr className='last-divider' />
                     </div>
                     :
-                    <div>Loading...</div>
+                    <RestaurantLoading />
             }
         </div>
     )
