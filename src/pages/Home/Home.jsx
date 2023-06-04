@@ -3,7 +3,7 @@ import './Home.css';
 import OrderType from '../../components/OrderType/OrderType';
 import FoodFilters from '../../components/FoodFilters/FoodFilters';
 
-import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from 'react-icons/md';
+import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos, MdKeyboardArrowUp } from 'react-icons/md';
 
 import biryani from '../../utils/images/inspirationFood/biryani.avif';
 import pizza from "../../utils/images/inspirationFood/pizza.avif";
@@ -61,6 +61,16 @@ const brands = [
 function Home() {
     const [itemsScrollLength, setItemsScrollLength] = useState(0);
     const [brandsScrollLength, setBrandsScrollLength] = useState(0);
+    const [displayGoToTopBtn, setDisplayGoToTopBtn] = useState(false);
+
+    window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 2400) {
+            setDisplayGoToTopBtn(true);
+        }
+        else {
+            setDisplayGoToTopBtn(false);
+        }
+    })
 
     useEffect(() => {
         setTimeout(() => { //without setTimeout window scroll did not work here, that's why I use setTimeout
@@ -137,6 +147,11 @@ function Home() {
 
             {/* Restaurants */}
             <Restaurants />
+
+            <button className='goToTop-btn' style={{
+                opacity: displayGoToTopBtn && 1,
+                zIndex: displayGoToTopBtn && 2
+            }} onClick={() => window.scrollTo(0, 0)}><MdKeyboardArrowUp /></button>
 
         </div>
     )

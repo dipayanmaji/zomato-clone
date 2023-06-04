@@ -2,8 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* gap: 1.3rem; */
-    /* background-color: aquamarine; */
+    position: relative;
 }
 
 .home .inspiration-foods-container {
@@ -33,7 +32,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    /* background-color: violet; */
 }
 
 .inspiration-foods-container .inspiration-foods-items h3,
@@ -108,7 +106,6 @@
     display: flex;
     gap: 2rem;
     transition: 0.8s;
-    /* background-color: aqua; */
 }
 
 .all-food-items-container .all-food-items .item-container,
@@ -116,7 +113,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     gap: 0.5rem;
     cursor: pointer;
 }
@@ -184,4 +180,28 @@
     .brands-container .brands-items #next-btn {
         right: 0;
     }
+}
+
+/* Go To Top Button */
+.home .goToTop-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(239, 79, 95);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    transition: opacity 0.8s ease 0s, visibility 0.8s ease 0s;
+    opacity: 0;
+    z-index: 0;
+    visibility: visible;
+    box-shadow: rgba(54, 54, 54, 0.06) 0px 1.6rem 1.6rem, rgba(54, 54, 54, 0.08) 0px 0.8rem 0.8rem;
 }
