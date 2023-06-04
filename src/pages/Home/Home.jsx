@@ -62,8 +62,10 @@ function Home() {
     const [itemsScrollLength, setItemsScrollLength] = useState(0);
     const [brandsScrollLength, setBrandsScrollLength] = useState(0);
 
-    useEffect(()=>{
-        window.scrollTo(0, 0);
+    useEffect(() => {
+        setTimeout(() => { //without setTimeout window scroll did not work here, that's why I use setTimeout
+            window.scrollTo(0, 0);
+        }, 0)
     }, [])
 
     const itemsPrevScroolHandler = () => {

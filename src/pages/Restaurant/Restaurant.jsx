@@ -27,6 +27,7 @@ const Restaurant = () => {
         document.title = dummyRestaurantsDetails[lastDizitOfId].page_info?.pageTitle + " Clone";
         setTimeout(() => {
             setRestaurantDetails(dummyRestaurantsDetails[lastDizitOfId]);
+            window.scrollTo(0, 0);
         }, 3000)
     }, [])
 

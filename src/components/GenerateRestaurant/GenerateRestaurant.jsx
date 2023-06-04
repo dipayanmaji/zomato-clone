@@ -8,31 +8,28 @@ let interval;
 const GenerateRestaurant = ({ restaurant }) => {
     let [rotation, setRotation] = useState(false);
 
-    useEffect(()=>{
-        return ()=>{
+    useEffect(() => {
+        return () => {
             clearInterval(interval);
         }
     }, [])
 
     const startRotated = () => {
         if (!restaurant.bottomContainers[1]) return;
-        console.log("mouse enter")
         interval = setInterval(() => {
             rotation = !rotation;
             setRotation(rotation);
-            console.log("interval");
         }, 3500);
     }
     const stopRotated = () => {
         if (!restaurant.bottomContainers[1]) return;
-        console.log("mouse leave")
         clearInterval(interval);
     }
 
     return (
         <Link to={`${restaurant.order.actionInfo.clickUrl}/${restaurant.info.resId}`} className='generate-restaurant' onMouseEnter={startRotated} onMouseLeave={stopRotated}>
             <div className='restaurant-image'>
-                <div className='promoted'>Promoted</div>
+                {restaurant.isPromoted && <div className='promoted'>Promoted</div>}
                 {restaurant.bulkOffers.length > 0 && <div className='offer'>{restaurant.bulkOffers[0]?.text}</div>}
                 <div className='time'>{restaurant.order.deliveryTime}</div>
                 <GenerateImage url={restaurant.info.image.url} alt={restaurant.info.name} />
@@ -73,14 +70,14 @@ const GenerateRestaurant = ({ restaurant }) => {
                     </div>
                 </div>
 
-                <div className='right-side'>
+                {restaurant.bottomContainers[1] && <div className='right-side'>
                     <div className='rotation-image' style={{ transform: rotation && `translate(-3.5rem, 0)` }}>
                         <GenerateImage url={restaurant.bottomContainers[1]?.image.url} alt={""} />
                     </div>
                     <div className='rotation-image' style={{ transform: rotation && `translate(-3.5rem, 0)` }}>
                         <GenerateImage url={restaurant.bottomContainers[0]?.image.url} alt={""} />
                     </div>
-                </div>
+                </div>}
             </div>
         </Link>
     )
