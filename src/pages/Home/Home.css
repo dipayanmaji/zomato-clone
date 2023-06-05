@@ -201,7 +201,7 @@
     border-radius: 50%;
     transition: opacity 0.8s ease 0s, visibility 0.8s ease 0s;
     opacity: 0;
-    z-index: 0;
-    visibility: visible;
+    visibility: hidden;
+    z-index: 2;
     box-shadow: rgba(54, 54, 54, 0.06) 0px 1.6rem 1.6rem, rgba(54, 54, 54, 0.08) 0px 0.8rem 0.8rem;
 }

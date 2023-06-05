@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Home.css';
 import OrderType from '../../components/OrderType/OrderType';
 import FoodFilters from '../../components/FoodFilters/FoodFilters';
+import Restaurants from '../../components/Restaurants/Restaurants';
 
 import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos, MdKeyboardArrowUp } from 'react-icons/md';
 
@@ -29,7 +30,6 @@ import kwalityWalls from "../../utils/images/brands/kwalityWalls.avif"
 import laPinozPizza from "../../utils/images/brands/laPinozPizza.avif"
 import subway from "../../utils/images/brands/subway.avif"
 import edabba from "../../utils/images/brands/edabba.avif"
-import Restaurants from '../../components/Restaurants/Restaurants';
 
 const inspirationFoods = [
     { imageUrl: biryani, title: "Biryani" },
@@ -58,7 +58,7 @@ const brands = [
     { imageUrl: edabba, title: "Edabba", time: "29 min" },
 ]
 
-function Home() {
+function Home({ filterType, setFilterType }) {
     const [itemsScrollLength, setItemsScrollLength] = useState(0);
     const [brandsScrollLength, setBrandsScrollLength] = useState(0);
     const [displayGoToTopBtn, setDisplayGoToTopBtn] = useState(false);
@@ -96,10 +96,10 @@ function Home() {
         <div className='home'>
 
             <OrderType />
-            <FoodFilters />
+            <FoodFilters filterType={filterType} setFilterType={setFilterType} />
 
             {/* Inspiration for your first order */}
-            <div className='inspiration-foods-container'>
+            {!filterType && <div className='inspiration-foods-container'>
                 <div className='inspiration-foods-items'>
                     <h3>Inspiration for your first order</h3>
                     {itemsScrollLength < 0 && <section className='scroll-btn' id='prev-btn' onClick={itemsPrevScroolHandler}><MdOutlineArrowBackIos /></section>}
@@ -119,10 +119,10 @@ function Home() {
                     </section>
                     {itemsScrollLength > -1134 && <section className='scroll-btn' id='next-btn' onClick={itemNextScroolHandler}><MdOutlineArrowForwardIos /></section>}
                 </div>
-            </div>
+            </div>}
 
             {/* Top brands for you */}
-            <div className='brands-container'>
+            {!filterType && <div className='brands-container'>
                 <div className='brands-items'>
                     <h3>Top brands for you</h3>
                     {brandsScrollLength < 0 && <section className='scroll-btn' id='prev-btn' onClick={brandsPrevScroolHandler}><MdOutlineArrowBackIos /></section>}
@@ -143,14 +143,14 @@ function Home() {
                     </section>
                     {brandsScrollLength > -756 && <section className='scroll-btn' id='next-btn' onClick={brandsNextScroolHandler}><MdOutlineArrowForwardIos /></section>}
                 </div>
-            </div>
+            </div>}
 
             {/* Restaurants */}
-            <Restaurants />
+            <Restaurants filterType={filterType} />
 
             <button className='goToTop-btn' style={{
                 opacity: displayGoToTopBtn && 1,
-                zIndex: displayGoToTopBtn && 2
+                visibility: displayGoToTopBtn && "visible"
             }} onClick={() => window.scrollTo(0, 0)}><MdKeyboardArrowUp /></button>
 
         </div>

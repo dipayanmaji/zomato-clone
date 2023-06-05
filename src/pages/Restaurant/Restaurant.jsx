@@ -21,7 +21,8 @@ const Restaurant = () => {
         const restaurantId = params.id;
         const lastDizitOfId = restaurantId.charAt(restaurantId.length - 1);
         if (isNaN(lastDizitOfId)) {
-            navigate('*');
+            navigate('/notFound');
+            return;
         }
 
         document.title = dummyRestaurantsDetails[lastDizitOfId].page_info?.pageTitle + " Clone";

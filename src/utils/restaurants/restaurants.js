@@ -128,6 +128,7 @@ export const restaurants = [
         "distance": "2 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -271,6 +272,7 @@ export const restaurants = [
         "distance": "661 m",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -610,6 +612,7 @@ export const restaurants = [
         "distance": "343 m",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -753,6 +756,7 @@ export const restaurants = [
         "distance": "4.8 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -889,6 +893,7 @@ export const restaurants = [
         "distance": "4.9 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -1030,6 +1035,7 @@ export const restaurants = [
         "distance": "3 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -1193,6 +1199,7 @@ export const restaurants = [
         "distance": "4.6 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -1351,6 +1358,7 @@ export const restaurants = [
         "distance": "4.9 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -1828,6 +1836,7 @@ export const restaurants = [
         "distance": "2.8 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -2154,6 +2163,7 @@ export const restaurants = [
         "distance": "1.3 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -2312,6 +2322,7 @@ export const restaurants = [
         "distance": "1.1 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -2600,6 +2611,7 @@ export const restaurants = [
         "distance": "284 m",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -3209,6 +3221,7 @@ export const restaurants = [
         "distance": "392 m",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -3382,6 +3395,7 @@ export const restaurants = [
         "distance": "587 m",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -3530,6 +3544,7 @@ export const restaurants = [
         "distance": "1.3 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -3869,6 +3884,7 @@ export const restaurants = [
         "distance": "3.5 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -4188,6 +4204,7 @@ export const restaurants = [
         "distance": "3.2 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -4790,6 +4807,7 @@ export const restaurants = [
         "distance": "5.4 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -4943,6 +4961,7 @@ export const restaurants = [
         "distance": "2.2 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -5096,6 +5115,7 @@ export const restaurants = [
         "distance": "3.3 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -5232,6 +5252,7 @@ export const restaurants = [
         "distance": "3.4 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -5711,6 +5732,7 @@ export const restaurants = [
         "distance": "297 m",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -6190,6 +6212,7 @@ export const restaurants = [
         "distance": "662 m",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -6496,6 +6519,7 @@ export const restaurants = [
         "distance": "3.2 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -6642,6 +6666,7 @@ export const restaurants = [
         "distance": "4 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -6946,6 +6971,7 @@ export const restaurants = [
         "distance": "2.6 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -7097,6 +7123,7 @@ export const restaurants = [
         "distance": "1.5 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -7418,6 +7445,7 @@ export const restaurants = [
         "distance": "5 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -7844,6 +7872,7 @@ export const restaurants = [
         "distance": "1.8 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -8007,6 +8036,7 @@ export const restaurants = [
         "distance": "432 m",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -8155,6 +8185,7 @@ export const restaurants = [
         "distance": "1.8 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -8315,6 +8346,7 @@ export const restaurants = [
         "distance": "3.4 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -8787,6 +8819,7 @@ export const restaurants = [
         "distance": "6 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -8950,6 +8983,7 @@ export const restaurants = [
         "distance": "3.6 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -9101,6 +9135,7 @@ export const restaurants = [
         "distance": "4.8 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -9264,6 +9299,7 @@ export const restaurants = [
         "distance": "5.2 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -9412,6 +9448,7 @@ export const restaurants = [
         "distance": "210 m",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -9563,6 +9600,7 @@ export const restaurants = [
         "distance": "4.1 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -9721,6 +9759,7 @@ export const restaurants = [
         "distance": "4.8 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -9899,6 +9938,7 @@ export const restaurants = [
         "distance": "1 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -10188,6 +10228,7 @@ export const restaurants = [
         "distance": "1.3 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -10351,6 +10392,7 @@ export const restaurants = [
         "distance": "2.8 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -10509,6 +10551,7 @@ export const restaurants = [
         "distance": "5.9 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -10825,6 +10868,7 @@ export const restaurants = [
         "distance": "3.9 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -11161,6 +11205,7 @@ export const restaurants = [
         "distance": "3.7 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -11668,6 +11713,7 @@ export const restaurants = [
         "distance": "5.1 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -11710,7 +11756,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 20497789,
+            "resId": 204977890,
             "name": "Kreamz",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/4/19909594/759b10b5024b328f3939bf65e3bc5eda_o2_featured_v2.jpg"
@@ -11793,8 +11839,8 @@ export const restaurants = [
             }
         },
         "order": {
-            "deliveryTime": "",
-            "isServiceable": false,
+            "deliveryTime": "10 min",
+            "isServiceable": true,
             "hasOnlineOrdering": true,
             "actionInfo": {
                 "text": "Currently not accepting orders",
@@ -11811,6 +11857,7 @@ export const restaurants = [
         "distance": "2.9 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -11962,6 +12009,7 @@ export const restaurants = [
         "distance": "1 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -12133,6 +12181,7 @@ export const restaurants = [
         "distance": "4.4 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -12731,6 +12780,7 @@ export const restaurants = [
         "distance": "4 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -12909,6 +12959,7 @@ export const restaurants = [
         "distance": "6.2 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -13373,6 +13424,7 @@ export const restaurants = [
         "distance": "2 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -13521,6 +13573,7 @@ export const restaurants = [
         "distance": "4.5 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -13951,6 +14004,7 @@ export const restaurants = [
         "distance": "4 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -14119,6 +14173,7 @@ export const restaurants = [
         "distance": "4.2 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -14282,6 +14337,7 @@ export const restaurants = [
         "distance": "4.8 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -14438,6 +14494,7 @@ export const restaurants = [
         "distance": "6.9 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -14759,6 +14816,7 @@ export const restaurants = [
         "distance": "1.1 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -14910,6 +14968,7 @@ export const restaurants = [
         "distance": "3.9 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -15246,6 +15305,7 @@ export const restaurants = [
         "distance": "5 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -15565,6 +15625,7 @@ export const restaurants = [
         "distance": "3.4 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -15711,6 +15772,7 @@ export const restaurants = [
         "distance": "443 m",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -15884,6 +15946,7 @@ export const restaurants = [
         "distance": "4 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -16042,6 +16105,7 @@ export const restaurants = [
         "distance": "1.7 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -16524,6 +16588,7 @@ export const restaurants = [
         "distance": "3.9 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -16848,6 +16913,7 @@ export const restaurants = [
         "distance": "2.9 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -17305,6 +17371,7 @@ export const restaurants = [
         "distance": "3.2 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -18083,6 +18150,7 @@ export const restaurants = [
         "distance": "3.5 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -18234,6 +18302,7 @@ export const restaurants = [
         "distance": "3.2 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -18548,6 +18617,7 @@ export const restaurants = [
         "distance": "6 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -18706,6 +18776,7 @@ export const restaurants = [
         "distance": "3.9 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -19025,6 +19096,7 @@ export const restaurants = [
         "distance": "3.2 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -19627,6 +19699,7 @@ export const restaurants = [
         "distance": "5.4 km",
         "isPromoted": false,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -20069,6 +20142,7 @@ export const restaurants = [
         "distance": "3.4 km",
         "isPromoted": true,
         "promotedText": "",
+        "isPureVeg": true,
         "trackingData": [
             {
                 "table_name": "zsearch_events_log",
@@ -20571,5 +20645,1695 @@ export const restaurants = [
                 "text": "Follows all Max Safety measures to ensure your food is safe"
             }
         ]
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 19690185,
+            "name": "Mishti Ghor",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/5/19690185/ec84ccd5f24ec7c3b83aad3982a8bba9_o2_featured_v2.jpg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/5/19690185/ec84ccd5f24ec7c3b83aad3982a8bba9_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.0",
+                "rating_text": "4.0",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "572",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "",
+                        "reviewCount": "0",
+                        "reviewTextSmall": "0 Reviews",
+                        "subtext": "Does not offer Dining",
+                        "color": "",
+                        "ratingV2": "-",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "grey",
+                            "tint": "500"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.0",
+                        "reviewCount": "572",
+                        "reviewTextSmall": "572 Reviews",
+                        "subtext": "572 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.0",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "600"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹200 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "Hindustan Park, Kolkata",
+                "address": "19/1A, Biplabi Ambika Chakraborty Sarani, Ward-086, Borough-VIII, Hindustan Park, Kolkata",
+                "localityUrl": "kolkata/hindustan-park-restaurants"
+            },
+            "timing": {
+                "text": "Opens in 3 minutes",
+                "color": "#e5521f"
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA0MVwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/mishti/",
+                    "name": "Mishti"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/bengali/",
+                    "name": "Bengali"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                    "url": "https://www.zomato.com/kolkata/restaurants/desserts/",
+                    "name": "Desserts"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "33 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/mishti-ghor-hindustan-park/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/mishti-ghor-hindustan-park/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "6.4 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19690185\",\"element_type\":\"listing\",\"rank\":1}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": [
+            {
+                "image": {
+                    "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+                    "aspect_ratio": 2.66666666667
+                },
+                "text": "Follows all Max Safety measures to ensure your food is safe"
+            }
+        ]
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 18128482,
+            "name": "Durga Puri Hotel",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/chains/2/18128482/daa1c704ec68120bbb009432fa0250cc_o2_featured_v2.jpg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/chains/2/18128482/daa1c704ec68120bbb009432fa0250cc_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "3.5",
+                "rating_text": "3.5",
+                "rating_subtitle": "Good",
+                "rating_color": "9ACD32",
+                "votes": "1,700",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "3.5",
+                        "reviewCount": "84",
+                        "reviewTextSmall": "84 Reviews",
+                        "subtext": "84 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "3.5",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "500"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "3.4",
+                        "reviewCount": "1,616",
+                        "reviewTextSmall": "1,616 Reviews",
+                        "subtext": "1,616 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "3.4",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "500"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹350 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "Bara Bazar, Kolkata",
+                "address": "207/F, Burtolla Street, Rabindra Sarani, Near Vishudhananda Hospital, Bara Bazar, Kolkata",
+                "localityUrl": "kolkata/bara-bazar-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/north-indian/",
+                    "name": "North Indian"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "34 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/durga-puri-hotel-bara-bazar/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/durga-puri-hotel-bara-bazar/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "1.2 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18128482\",\"element_type\":\"listing\",\"rank\":2}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": [
+            {
+                "image": {
+                    "url": "https://b.zmtcdn.com/data/o2_assets/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png",
+                    "aspect_ratio": 2.0625
+                },
+                "text": "Restaurant partner follows WHO protocol"
+            }
+        ]
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 18541626,
+            "name": "Bagels",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/chains/6/18541626/196fc90897b9a591867267f7dc5b8683_o2_featured_v2.jpg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/chains/6/18541626/196fc90897b9a591867267f7dc5b8683_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.3",
+                "rating_text": "4.3",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "644",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "",
+                        "reviewCount": "0",
+                        "reviewTextSmall": "0 Reviews",
+                        "subtext": "Does not offer Dining",
+                        "color": "",
+                        "ratingV2": "-",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "grey",
+                            "tint": "500"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.3",
+                        "reviewCount": "644",
+                        "reviewTextSmall": "644 Reviews",
+                        "subtext": "644 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.3",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹300 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "Dum Dum, Kolkata",
+                "address": "70B, Lalgor, Near Lalgor Mandir, Dum Dum, Kolkata",
+                "localityUrl": "kolkata/dum-dum-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNVwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/bakery/",
+                    "name": "Bakery"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "40 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/bagels-dum-dum/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/bagels-dum-dum/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "6.1 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18541626\",\"element_type\":\"listing\",\"rank\":3}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 20437386,
+            "name": "Turkishq",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/6/20437386/ea177a4e047facd5aa634bca3bc1072c_o2_featured_v2.jpg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/6/20437386/ea177a4e047facd5aa634bca3bc1072c_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.1",
+                "rating_text": "4.1",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "223",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "",
+                        "reviewCount": "0",
+                        "reviewTextSmall": "0 Reviews",
+                        "subtext": "Does not offer Dining",
+                        "color": "",
+                        "ratingV2": "-",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "grey",
+                            "tint": "500"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.1",
+                        "reviewCount": "223",
+                        "reviewTextSmall": "223 Reviews",
+                        "subtext": "223 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.1",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹150 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "Shyam Bazar, Kolkata",
+                "address": "21, Srish Chandra Chowdhary Lane, Shyam Bazar, Kolkata",
+                "localityUrl": "kolkata/shyam-bazar-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                    "url": "https://www.zomato.com/kolkata/restaurants/desserts/",
+                    "name": "Desserts"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTQyXCJdfSJd",
+                    "url": "https://www.zomato.com/kolkata/restaurants/turkish/",
+                    "name": "Turkish"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "28 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/turkishq-shyam-bazar/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/turkishq-shyam-bazar/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "3.8 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20437386\",\"element_type\":\"listing\",\"rank\":4}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 19498444,
+            "name": "The Cake Boutique",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/4/19498444/2fe5365999c49d71c0dc1f8378ef93de_o2_featured_v2.jpg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/4/19498444/2fe5365999c49d71c0dc1f8378ef93de_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.1",
+                "rating_text": "4.1",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1,330",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "",
+                        "reviewCount": "0",
+                        "reviewTextSmall": "0 Reviews",
+                        "subtext": "Does not offer Dining",
+                        "color": "",
+                        "ratingV2": "-",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "grey",
+                            "tint": "500"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.1",
+                        "reviewCount": "1,330",
+                        "reviewTextSmall": "1,330 Reviews",
+                        "subtext": "1,330 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.1",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹250 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "Bangur, Kolkata",
+                "address": "Plot 264, Bangur Avenue, Block -B, South Dum Dum, Bangur, Kolkata",
+                "localityUrl": "kolkata/bangur-restaurants"
+            },
+            "timing": {
+                "text": "Opens in 3 minutes",
+                "color": "#e5521f"
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNVwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/bakery/",
+                    "name": "Bakery"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                    "url": "https://www.zomato.com/kolkata/restaurants/desserts/",
+                    "name": "Desserts"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "44 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/the-cake-boutique-bangur/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/the-cake-boutique-bangur/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "6.3 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19498444\",\"element_type\":\"listing\",\"rank\":5}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": [
+            {
+                "image": {
+                    "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+                    "aspect_ratio": 2.66666666667
+                },
+                "text": "Follows all Max Safety measures to ensure your food is safe"
+            }
+        ]
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 18874515,
+            "name": "Tirupati South Indian Restaurant",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/5/18874515/df331d22b92356c00fc95d16ff5cfdb0_o2_featured_v2.jpg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/5/18874515/df331d22b92356c00fc95d16ff5cfdb0_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "3.5",
+                "rating_text": "3.5",
+                "rating_subtitle": "Good",
+                "rating_color": "9ACD32",
+                "votes": "990",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "",
+                        "reviewCount": "0",
+                        "reviewTextSmall": "0 Reviews",
+                        "subtext": "Does not offer Dining",
+                        "color": "",
+                        "ratingV2": "-",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "grey",
+                            "tint": "500"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "3.5",
+                        "reviewCount": "990",
+                        "reviewTextSmall": "990 Reviews",
+                        "subtext": "990 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "3.5",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "500"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹200 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "Dobson Road, Howrah",
+                "address": "88, Dr. Abani Dutta Road, Dobson Road, Howrah",
+                "localityUrl": "kolkata/dobson-road-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/south-indian/",
+                    "name": "South Indian"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "70 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/tirupati-south-indian-restaurant-dobson-road-howrah/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/tirupati-south-indian-restaurant-dobson-road-howrah/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "3.2 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18874515\",\"element_type\":\"listing\",\"rank\":6}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 19515155,
+            "name": "Snack Shack",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/5/19515155/8dececd86da78a3505bcda8d2bdd682f_o2_featured_v2.jpg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/5/19515155/8dececd86da78a3505bcda8d2bdd682f_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.2",
+                "rating_text": "4.2",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1,349",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "",
+                        "reviewCount": "0",
+                        "reviewTextSmall": "0 Reviews",
+                        "subtext": "Does not offer Dining",
+                        "color": "",
+                        "ratingV2": "-",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "grey",
+                            "tint": "500"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.2",
+                        "reviewCount": "1,349",
+                        "reviewTextSmall": "1,349 Reviews",
+                        "subtext": "1,349 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.2",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹400 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "Kasba, Kolkata",
+                "address": "884, Ground Floor, DD 22 Building, Raj Danga Main Road, Kasba, Kolkata",
+                "localityUrl": "kolkata/kasba-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTY4XCJdfSJd",
+                    "url": "https://www.zomato.com/kolkata/restaurants/burger/",
+                    "name": "Burger"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzA0XCJdfSJd",
+                    "url": "https://www.zomato.com/kolkata/restaurants/sandwich/",
+                    "name": "Sandwich"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NFwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/pasta/",
+                    "name": "Pasta"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAyNFwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/wraps/",
+                    "name": "Wraps"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA1MVwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/momos/",
+                    "name": "Momos"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/fast-food/",
+                    "name": "Fast Food"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/street-food/",
+                    "name": "Street Food"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                    "url": "https://www.zomato.com/kolkata/restaurants/beverages/",
+                    "name": "Beverages"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "57 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/snack-shack-kasba/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/snack-shack-kasba/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "7.1 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19515155\",\"element_type\":\"listing\",\"rank\":7}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": [
+            {
+                "image": {
+                    "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+                    "aspect_ratio": 2.66666666667
+                },
+                "text": "Follows all Max Safety measures to ensure your food is safe"
+            }
+        ]
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 18712752,
+            "name": "Jain Surbhi Bhojanlaya",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/chains/2/18712752/b66d862d406a5489743db5d6dc04bcaa_o2_featured_v2.jpg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/chains/2/18712752/b66d862d406a5489743db5d6dc04bcaa_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "3.7",
+                "rating_text": "3.7",
+                "rating_subtitle": "Good",
+                "rating_color": "9ACD32",
+                "votes": "14.6K",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "3.8",
+                        "reviewCount": "272",
+                        "reviewTextSmall": "272 Reviews",
+                        "subtext": "272 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "3.8",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "600"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "3.6",
+                        "reviewCount": "14.3K",
+                        "reviewTextSmall": "14.3K Reviews",
+                        "subtext": "14.3K Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "3.6",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "600"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹200 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "Bara Bazar, Kolkata",
+                "address": "4-A, Ganpat Bagla Lane, Bara Bazar, Kolkata",
+                "localityUrl": "kolkata/bara-bazar-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/north-indian/",
+                    "name": "North Indian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/south-indian/",
+                    "name": "South Indian"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/fast-food/",
+                    "name": "Fast Food"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTBcIl19Il0%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/street-food/",
+                    "name": "Street Food"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA0MVwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/mishti/",
+                    "name": "Mishti"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "52 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/jain-surbhi-bhojanlaya-bara-bazar/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/jain-surbhi-bhojanlaya-bara-bazar/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "1.8 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18712752\",\"element_type\":\"listing\",\"rank\":8}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": [
+            {
+                "image": {
+                    "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+                    "aspect_ratio": 2.66666666667
+                },
+                "text": "Follows all Max Safety measures to ensure your food is safe"
+            }
+        ]
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 23091,
+            "name": "Taste Of Chennai",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/1/23091/786d7c1cb2cb12ce835cebe164f5c88a_o2_featured_v2.jpg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/1/23091/786d7c1cb2cb12ce835cebe164f5c88a_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "3.6",
+                "rating_text": "3.6",
+                "rating_subtitle": "Good",
+                "rating_color": "9ACD32",
+                "votes": "559",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "3.1",
+                        "reviewCount": "17",
+                        "reviewTextSmall": "17 Reviews",
+                        "subtext": "17 Dining Reviews",
+                        "color": "#1C1C1C",
+                        "ratingV2": "3.1",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "500"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.1",
+                        "reviewCount": "542",
+                        "reviewTextSmall": "542 Reviews",
+                        "subtext": "542 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.1",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹250 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "Hazra, Kolkata",
+                "address": "Shop 12, Ground Floor, Opposite Radha Krishna Mandir, S.P. Mukherjee Road, Hazra, Kolkata",
+                "localityUrl": "kolkata/hazra-restaurants"
+            },
+            "timing": {
+                "text": "Temporarily closed for dining, will be back soon!",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODVcIl19Il0%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/south-indian/",
+                    "name": "South Indian"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "41 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/taste-of-chennai-hazra/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/taste-of-chennai-hazra/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "5.7 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"23091\",\"element_type\":\"listing\",\"rank\":9}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 20282435,
+            "name": "Crazy 4 Cakes",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/5/20282435/a9c4b44d1a879f13c900ef2032e140d1_o2_featured_v2.jpg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/5/20282435/a9c4b44d1a879f13c900ef2032e140d1_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "3.7",
+                "rating_text": "3.7",
+                "rating_subtitle": "Good",
+                "rating_color": "9ACD32",
+                "votes": "210",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "",
+                        "reviewCount": "0",
+                        "reviewTextSmall": "0 Reviews",
+                        "subtext": "Does not offer Dining",
+                        "color": "",
+                        "ratingV2": "-",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "grey",
+                            "tint": "500"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "3.7",
+                        "reviewCount": "210",
+                        "reviewTextSmall": "210 Reviews",
+                        "subtext": "210 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "3.7",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "600"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹200 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "GT Road, Howrah",
+                "address": "136, Shibpur, GT Road, Howrah",
+                "localityUrl": "kolkata/gt-road-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNVwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/bakery/",
+                    "name": "Bakery"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                    "url": "https://www.zomato.com/kolkata/restaurants/desserts/",
+                    "name": "Desserts"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "34 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/crazy-4-cakes-1-gt-road-howrah/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/crazy-4-cakes-1-gt-road-howrah/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "3.6 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20282435\",\"element_type\":\"listing\",\"rank\":10}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 20635826,
+            "name": "Red Cow Dairy World - Ice Cream & More",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/6/20635826/e71d05a9e36428056419954e105597f4_o2_featured_v2.jpg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/6/20635826/e71d05a9e36428056419954e105597f4_o2_featured_v2.jpg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "3.8",
+                "rating_text": "3.8",
+                "rating_subtitle": "Good",
+                "rating_color": "9ACD32",
+                "votes": "1",
+                "subtext": "REVIEW",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "",
+                        "reviewCount": "0",
+                        "reviewTextSmall": "0 Reviews",
+                        "subtext": "Does not offer Dining",
+                        "color": "",
+                        "ratingV2": "-",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "grey",
+                            "tint": "500"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "3.8",
+                        "reviewCount": "1",
+                        "reviewTextSmall": "1 Reviews",
+                        "subtext": "1 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "3.8",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "600"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹300 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "Minto Park, Kolkata",
+                "address": "13, Pramathes Barua Sarani, Word 69, Minto Park, Kolkata",
+                "localityUrl": "kolkata/minto-park-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjMzXCJdfSJd",
+                    "url": "https://www.zomato.com/kolkata/restaurants/ice-cream/",
+                    "name": "Ice Cream"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NlwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/shake/",
+                    "name": "Shake"
+                },
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                    "url": "https://www.zomato.com/kolkata/restaurants/beverages/",
+                    "name": "Beverages"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "44 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/red-cow-dairy-world-ice-cream-more-minto-park/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/red-cow-dairy-world-ice-cream-more-minto-park/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "4.2 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20635826\",\"element_type\":\"listing\",\"rank\":11}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": []
+    },
+    {
+        "type": "restaurant",
+        "info": {
+            "resId": 19294333,
+            "name": "Cakerica",
+            "image": {
+                "url": "https://b.zmtcdn.com/data/pictures/3/19294333/dc1a2a8057a4e27e21cb4fed8e15215d_o2_featured_v2.jpeg"
+            },
+            "o2FeaturedImage": {
+                "url": "https://b.zmtcdn.com/data/pictures/3/19294333/dc1a2a8057a4e27e21cb4fed8e15215d_o2_featured_v2.jpeg"
+            },
+            "rating": {
+                "has_fake_reviews": 0,
+                "aggregate_rating": "4.1",
+                "rating_text": "4.1",
+                "rating_subtitle": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "372",
+                "subtext": "REVIEWS",
+                "is_new": false
+            },
+            "ratingNew": {
+                "newlyOpenedObj": null,
+                "suspiciousReviewObj": null,
+                "ratings": {
+                    "DINING": {
+                        "rating_type": "DINING",
+                        "rating": "",
+                        "reviewCount": "0",
+                        "reviewTextSmall": "0 Reviews",
+                        "subtext": "Does not offer Dining",
+                        "color": "",
+                        "ratingV2": "-",
+                        "subtitle": "DINING",
+                        "sideSubTitle": "Dining Reviews",
+                        "bgColorV2": {
+                            "type": "grey",
+                            "tint": "500"
+                        }
+                    },
+                    "DELIVERY": {
+                        "rating_type": "DELIVERY",
+                        "rating": "4.1",
+                        "reviewCount": "372",
+                        "reviewTextSmall": "372 Reviews",
+                        "subtext": "372 Delivery Reviews",
+                        "color": "#E23744",
+                        "ratingV2": "4.1",
+                        "subtitle": "DELIVERY",
+                        "sideSubTitle": "Delivery Reviews",
+                        "bgColorV2": {
+                            "type": "green",
+                            "tint": "700"
+                        },
+                        "newOnDelivery": false
+                    }
+                }
+            },
+            "cft": {
+                "text": "₹100 for two"
+            },
+            "cfo": {
+                "text": "₹150 for one"
+            },
+            "locality": {
+                "name": "Bhawanipur, Kolkata",
+                "address": "37A, Justice Chandra Madhab Road, Bhawanipur, Kolkata",
+                "localityUrl": "kolkata/bhawanipur-restaurants"
+            },
+            "timing": {
+                "text": "",
+                "color": ""
+            },
+            "cuisine": [
+                {
+                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNVwiXX0iXQ%3D%3D",
+                    "url": "https://www.zomato.com/kolkata/restaurants/bakery/",
+                    "name": "Bakery"
+                }
+            ],
+            "should_ban_ugc": false,
+            "costText": {
+                "text": "₹150 for one"
+            }
+        },
+        "order": {
+            "deliveryTime": "69 min",
+            "isServiceable": true,
+            "hasOnlineOrdering": true,
+            "actionInfo": {
+                "text": "Order Now",
+                "clickUrl": "/kolkata/cakerica-bhawanipur/order"
+            }
+        },
+        "gold": [],
+        "takeaway": [],
+        "cardAction": {
+            "text": "",
+            "clickUrl": "/kolkata/cakerica-bhawanipur/order",
+            "clickActionDeeplink": ""
+        },
+        "distance": "4.3 km",
+        "isPromoted": false,
+        "promotedText": "",
+        "isPureVeg": true,
+        "trackingData": [
+            {
+                "table_name": "zsearch_events_log",
+                "payload": "{\"search_id\":\"ec496c60-32fd-4465-ad69-4eb5c96955c0\",\"location_type\":\"delivery_cell\",\"location_id\":\"4180033504081346560\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19294333\",\"element_type\":\"listing\",\"rank\":12}",
+                "event_names": {
+                    "tap": "{\"action\":\"tap\"}",
+                    "impression": "{\"action\":\"impression\"}"
+                }
+            }
+        ],
+        "allCTA": [],
+        "promoOffer": "",
+        "checkBulkOffers": true,
+        "bulkOffers": [
+            {
+                "text": "50% OFF up to 100",
+                "color": {
+                    "tint": "500",
+                    "type": "blue"
+                }
+            }
+        ],
+        "isDisabled": false,
+        "bottomContainers": []
     }
 ]
