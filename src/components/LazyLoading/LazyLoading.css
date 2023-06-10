@@ -17,7 +17,7 @@
     background-color: white;
     box-shadow: 0 0 20px 10px white;
     position: absolute;
-    animation: reflectorMove 2s infinite;
+    animation: reflectorMove 1.5s infinite;
 }
 
 @keyframes reflectorMove {

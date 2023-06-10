@@ -1,12 +1,15 @@
 import './Header.css';
 import React, { useState } from 'react';
 import zomato from '../../utils/images/zomato.png';
-import { HiLocationMarker } from 'react-icons/hi';
+import { HiLocationMarker, HiShoppingCart } from 'react-icons/hi';
 import { AiFillCaretDown } from 'react-icons/ai';
 import { CiSearch } from 'react-icons/ci';
+import { useSelector } from 'react-redux';
 
 const Header = () => {
     const [displayBarOptions, setDisplayBarOptions] = useState(false);
+    const cartItems = useSelector((state) => state.cart_items.items);
+
     return (
         <div className='header-container'>
             <div className='header'>
@@ -34,12 +37,24 @@ const Header = () => {
                 </div>
 
                 <div className='authentications'>
+                    <a href='/checkout'>
+                        <span className='cartIcon-total'>
+                            <HiShoppingCart style={{ color: Object.keys(cartItems).length && "green" }} />
+                            <span className='cartItemTotal' style={{ color: Object.keys(cartItems).length && "white" }}>{Object.keys(cartItems).length}</span>
+                        </span>Cart
+                    </a>
                     <a href='/login'>Log in</a>
                     <a href='/signup'>Sign up</a>
                 </div>
             </div>
 
             <div style={{ opacity: !displayBarOptions && 0, zIndex: !displayBarOptions && -1 }} className='bar-options'>
+                <a href='/checkout'>
+                    <span className='cartIcon-total'>
+                        <HiShoppingCart style={{ color: Object.keys(cartItems).length && "green" }} />
+                        <span className='cartItemTotal' style={{ color: Object.keys(cartItems).length && "white" }}>{Object.keys(cartItems).length}</span>
+                    </span>Cart
+                </a>
                 <a href='/login'>Log in</a>
                 <a href='/signup'>Sign up</a>
 
