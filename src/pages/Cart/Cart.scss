@@ -91,7 +91,8 @@
             margin-bottom: 5rem;
 
             .empty-cart-image {
-                width: 22rem;
+                width: 100%;
+                max-width: 22rem;
                 height: 22rem;
 
                 img {
