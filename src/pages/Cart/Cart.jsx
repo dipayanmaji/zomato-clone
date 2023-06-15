@@ -8,13 +8,25 @@ import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { clearCart } from '../../components/Redux/CartItemSlice';
 import { createPortal } from 'react-dom';
-import Model from '../../components/Model/Model';
+import OrderModel from '../../components/Model/OrderModel';
+import LoginFirstModel from '../../components/Model/LoginFirstModel';
 
 const Cart = () => {
+    const [displayProtal, setDisplayProtal] = useState(false);
+    const [loginFirst, setloginFirst] = useState(false);
+
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const cartItems = useSelector((state) => state.cart_items.items);
-    const [displayProtal, setDisplayProtal] = useState(false);
+    const loginUser = useSelector((state) => state.login_user.user);
+
+    const orderHandler = () => {
+        if (!loginUser) {
+            setloginFirst(true);
+            return;
+        }
+        setDisplayProtal(true);
+    }
 
     return (
         <div className='cart-page'>
@@ -49,9 +61,10 @@ const Cart = () => {
                             </div>
 
                             <div className='buttons'>
-                                <button className='order' onClick={() => setDisplayProtal(true)}>ORDER</button>
+                                <button className='order' onClick={orderHandler}>ORDER</button>
                             </div>
-                            {displayProtal && createPortal(<Model setDisplayProtal={setDisplayProtal} />, document.getElementById("portal"))}
+                            {displayProtal && createPortal(<OrderModel setDisplayProtal={setDisplayProtal} />, document.getElementById("portal"))}
+                            {loginFirst && createPortal(<LoginFirstModel setloginFirst={setloginFirst} />, document.getElementById("portal"))}
                         </>
                         :
                         <div className='empty-cart'>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import defaultImage from '../../utils/images/placeholder.webp';
 import LazyLoading from '../LazyLoading/LazyLoading';
 
-function GenerateImage({ url, alt }) {
+function GenerateImage({ url, alt, title }) {
     const [loading, setLoading] = useState(true);
 
     const replaceImage = (e) => {
@@ -20,6 +20,7 @@ function GenerateImage({ url, alt }) {
                 src={url} alt={alt}
                 onLoad={displayImage}
                 onError={replaceImage}
+                title={title}
             // loading='lazy'
             />
         </>

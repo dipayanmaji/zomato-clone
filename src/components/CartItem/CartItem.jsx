@@ -19,7 +19,7 @@ const CartItem = ({ item }) => {
     return (
         <div className='cart-item' id={item.id}>
             <div className='image-name'>
-                {item.image && <div className='cart-item-image'> <GenerateImage url={item.image} alt="" /></div>}
+                {item.image && <div className='cart-item-image'> <GenerateImage url={item.image} alt={item.name} title={item.name} /></div>}
                 <div className='cart-item-name'>{item.name}</div>
             </div>
 

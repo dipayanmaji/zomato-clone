@@ -1,11 +1,11 @@
 import { useDispatch } from 'react-redux';
-import './Model.scss';
+import './OrderModel.scss';
 import React, { useEffect } from 'react';
 import { clearCart } from '../Redux/CartItemSlice';
 import { useNavigate } from 'react-router-dom';
 import { HiCheck } from 'react-icons/hi';
 
-const Model = ({ setDisplayProtal }) => {
+const OrderModel = ({ setDisplayProtal }) => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
     useEffect(() => {
@@ -22,8 +22,8 @@ const Model = ({ setDisplayProtal }) => {
         navigate('/kolkata');
     }
     return (
-        <div className='model'>
-            <div className='message'>
+        <div className='model' onClick={buttonHandler}>
+            <div className='message' onClick={(e) => e.stopPropagation()}>
                 <div className='check'>
                     <HiCheck />
                     <div className='moving-element'></div>
@@ -35,4 +35,4 @@ const Model = ({ setDisplayProtal }) => {
     )
 }
 
-export default Model;
+export default OrderModel;

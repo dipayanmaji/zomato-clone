@@ -4,17 +4,34 @@ import zomato from '../../utils/images/zomato.png';
 import { HiLocationMarker, HiShoppingCart } from 'react-icons/hi';
 import { AiFillCaretDown } from 'react-icons/ai';
 import { CiSearch } from 'react-icons/ci';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { createPortal } from 'react-dom';
 import SignUp from '../SignUp/SignUp';
 import LogIn from '../LogIn/LogIn';
+import { FaUserAlt } from 'react-icons/fa';
+import { MdKeyboardArrowDown } from 'react-icons/md';
+import { logout } from '../Redux/LoginUserSlice';
+import { clearCart } from '../Redux/CartItemSlice';
 
 const Header = () => {
     const [displayBarOptions, setDisplayBarOptions] = useState(false);
     const [signUp, setSignUp] = useState(false);
     const [logIn, setLogIn] = useState(false);
+    const [displayLogOut, setDisplayLogOut] = useState(false);
+
     const cartItems = useSelector((state) => state.cart_items.items);
+    const loginUser = useSelector((state) => state.login_user.user);
+    const dispatch = useDispatch();
+
+    const userHandler = () => {
+        setDisplayLogOut(!displayLogOut);
+    }
+
+    const logOutHandler = () => {
+        dispatch(logout());
+        dispatch(clearCart());
+    }
 
     return (
         <div className='header-container'>
@@ -52,8 +69,19 @@ const Header = () => {
                             <span className='cartItemTotal' style={{ color: Object.keys(cartItems).length && "white" }}>{Object.keys(cartItems).length}</span>
                         </span>Cart
                     </Link>
-                    <span className='link' to='/login' onClick={() => setLogIn(true)}>Log in</span>
-                    <span className='link' to='/signup' onClick={() => setSignUp(true)}>Sign up</span>
+                    {!loginUser ?
+                        <>
+                            <span className='link' onClick={() => setLogIn(true)}>Log in</span>
+                            <span className='link' onClick={() => setSignUp(true)}>Sign up</span>
+                        </>
+                        :
+                        <span className='link login-user' onClick={userHandler}>
+                            <FaUserAlt />
+                            <span className='name' title={loginUser.name}>{loginUser.name}</span>
+                            <MdKeyboardArrowDown style={{ rotate: displayLogOut && "180deg" }} />
+                            <span className='log-out' style={{ display: displayLogOut && "block" }} onClick={logOutHandler}>Log out</span>
+                        </span>
+                    }
                 </div>
             </div>
 
@@ -65,8 +93,19 @@ const Header = () => {
                         <span className='cartItemTotal' style={{ color: Object.keys(cartItems).length && "white" }}>{Object.keys(cartItems).length}</span>
                     </span>Cart
                 </Link>
-                <span className='link' to='/login' onClick={() => { setDisplayBarOptions(false); setLogIn(true); }}>Log in</span>
-                <span className='link' to='/signup' onClick={() => { setDisplayBarOptions(false); setSignUp(true); }}>Sign up</span>
+                {!loginUser ?
+                    <>
+                        <span className='link' onClick={() => { setDisplayBarOptions(false); setLogIn(true); }}>Log in</span>
+                        <span className='link' onClick={() => { setDisplayBarOptions(false); setSignUp(true); }}>Sign up</span>
+                    </>
+                    :
+                    <span className='link login-user' onClick={userHandler}>
+                        <FaUserAlt />
+                        <span className='name' title={loginUser.name}>{loginUser.name}</span>
+                        <MdKeyboardArrowDown style={{ rotate: displayLogOut && "180deg" }} />
+                        <span className='log-out' style={{ display: displayLogOut && "block" }} onClick={logOutHandler}>Log out</span>
+                    </span>
+                }
 
                 <div className='search-container'>
                     <div className='location'>

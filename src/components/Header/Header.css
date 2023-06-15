@@ -143,6 +143,45 @@
 
 }
 
+.login-user {
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.2rem;
+    position: relative;
+    /* background-color: red; */
+}
+
+.login-user .name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+
+.login-user .log-out {
+    box-sizing: border-box;
+    width: 8rem;
+    border-radius: 3px;
+    padding: 0.2rem 0.7rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(255, 78, 95);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    display: none;
+}
+
+.login-user .log-out:hover {
+    background-color: rgb(222, 71, 86);
+}
+
 /* bar */
 .header .bar {
     width: 1.5rem;
