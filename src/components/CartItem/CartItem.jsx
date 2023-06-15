@@ -18,14 +18,19 @@ const CartItem = ({ item }) => {
 
     return (
         <div className='cart-item' id={item.id}>
-            <div className='cart-item-image'>{item.image && <GenerateImage url={item.image} alt="" />}</div>
-            <div className='cart-item-name'>{item.name}</div>
-            <div className='cart-item-buttons'>
-                <button className='minus-button' id={item.id} onClick={removeItemsHandler}>-</button>
-                <span className='count'>{item.quantity}</span>
-                <button className='plus-button' id={item.id} onClick={addItemsHandler}>+</button>
+            <div className='image-name'>
+                {item.image && <div className='cart-item-image'> <GenerateImage url={item.image} alt="" /></div>}
+                <div className='cart-item-name'>{item.name}</div>
             </div>
-            <div className='cart-item-price'>₹{item.price * item.quantity}</div>
+
+            <div className='buttons-price'>
+                <div className='cart-item-buttons'>
+                    <button className='minus-button' id={item.id} onClick={removeItemsHandler}>-</button>
+                    <span className='count'>{item.quantity}</span>
+                    <button className='plus-button' id={item.id} onClick={addItemsHandler}>+</button>
+                </div>
+                <div className='cart-item-price'>₹{item.price * item.quantity}</div>
+            </div>
         </div>
     )
 }

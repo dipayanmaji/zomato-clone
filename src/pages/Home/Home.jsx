@@ -73,6 +73,7 @@ function Home({ filterType, setFilterType }) {
     })
 
     useEffect(() => {
+        document.title = "Zomato Clone"
         setTimeout(() => { //without setTimeout window scroll did not work here, that's why I use setTimeout
             window.scrollTo(0, 0);
         }, 0)

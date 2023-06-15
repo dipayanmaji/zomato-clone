@@ -8,8 +8,8 @@
 .restaurant-page .restaurant-details {
     width: 100%;
     max-width: 68.8rem;
-    margin: 0 1rem;
-    /* background-color: aquamarine; */
+    padding: 0 0.2rem;
+    box-sizing: border-box;
 }
 
 /* Images */
@@ -260,5 +260,27 @@
 
     .restaurant-info .name-rating .rating .subtitle .reviewCount {
         display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .restaurant-page .restaurant-details .restaurant-images .image1 {
+        width: 100%;
+    }
+
+    .restaurant-page .restaurant-details .restaurant-images .middle-images {
+        display: none;
+    }
+
+    .restaurant-page .restaurant-details .restaurant-images .image4 {
+        display: none;
+    }
+
+    .restaurant-info .name-rating .rating .dining-reviews {
+        display: none;
+    }
+
+    .restaurant-info .name-rating .rating .delivery-reviews {
+        width: 100%;
     }
 }
