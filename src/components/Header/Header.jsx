@@ -57,7 +57,7 @@ const Header = () => {
 
                     <div className='search'>
                         <span id='search-icon'><CiSearch /></span>
-                        <input placeholder='Search for restaurant, cuisine or a dish' />
+                        <input placeholder='Search for restaurant, cuisine or a dish' readOnly />
                     </div>
                 </div>
 
@@ -118,7 +118,7 @@ const Header = () => {
 
                     <div className='search'>
                         <span id='search-icon'><CiSearch /></span>
-                        <input placeholder='Search for restaurant, cuisine or a dish' />
+                        <input placeholder='Search for restaurant, cuisine or a dish' readOnly />
                     </div>
                 </div>
             </div>

@@ -45,30 +45,30 @@ const Restaurant = () => {
                                 />
                             </div>
                             <section className='middle-images'>
-                                <div className='image2'>
+                                {restaurantDetails.entities.IMAGES[restaurantDetails.page_data.sections.SECTION_IMAGE_CAROUSEL.entities[0].entity_ids[0]] && <div className='image2'>
                                     <GenerateImage
-                                        url={restaurantDetails.entities.IMAGES[restaurantDetails.page_data.sections.SECTION_IMAGE_CAROUSEL.entities[0].entity_ids[0]].thumbUrl}
+                                        url={restaurantDetails.entities.IMAGES[restaurantDetails.page_data.sections.SECTION_IMAGE_CAROUSEL.entities[0].entity_ids[0]]?.thumbUrl}
                                         alt={"image2"}
                                     />
-                                </div>
-                                <div className='image3'>
+                                </div>}
+                                {restaurantDetails.entities.IMAGES[restaurantDetails.page_data.sections.SECTION_IMAGE_CAROUSEL.entities[0].entity_ids[1]] && <div className='image3'>
                                     <GenerateImage
-                                        url={restaurantDetails.entities.IMAGES[restaurantDetails.page_data.sections.SECTION_IMAGE_CAROUSEL.entities[0].entity_ids[1]].thumbUrl}
+                                        url={restaurantDetails.entities.IMAGES[restaurantDetails.page_data.sections.SECTION_IMAGE_CAROUSEL.entities[0].entity_ids[1]]?.thumbUrl}
                                         alt={"image3"}
                                     />
-                                </div>
+                                </div>}
                             </section>
-                            <div className='image4'>
+                            {restaurantDetails.entities.IMAGES[restaurantDetails.page_data.sections.SECTION_IMAGE_CAROUSEL.entities[0].entity_ids[2]] && <div className='image4'>
                                 <GenerateImage
-                                    url={restaurantDetails.entities.IMAGES[restaurantDetails.page_data.sections.SECTION_IMAGE_CAROUSEL.entities[0].entity_ids[2]].thumbUrl}
+                                    url={restaurantDetails.entities.IMAGES[restaurantDetails.page_data.sections.SECTION_IMAGE_CAROUSEL.entities[0].entity_ids[2]]?.thumbUrl}
                                     alt={"image4"}
                                 />
-                            </div>
+                            </div>}
                         </div>
 
                         <div className='restaurant-info'>
                             <div className='name-rating'>
-                                <h1 className='name'>{restaurantDetails.page_data.sections.SECTION_BASIC_INFO.name}</h1>
+                                <h1 className='name' title={restaurantDetails.page_data.sections.SECTION_BASIC_INFO.name}>{restaurantDetails.page_data.sections.SECTION_BASIC_INFO.name}</h1>
                                 <div className='rating'>
                                     <div className='dining-reviews'>
                                         <div className='star-rating' style={{ backgroundColor: restaurantDetails.page_data.sections.SECTION_BASIC_INFO.rating_new.ratings.DINING.bgColorV2.type }}>

@@ -30,32 +30,33 @@ import kwalityWalls from "../../utils/images/brands/kwalityWalls.avif"
 import laPinozPizza from "../../utils/images/brands/laPinozPizza.avif"
 import subway from "../../utils/images/brands/subway.avif"
 import edabba from "../../utils/images/brands/edabba.avif"
+import { Link } from 'react-router-dom';
 
 const inspirationFoods = [
-    { imageUrl: biryani, title: "Biryani" },
-    { imageUrl: pizza, title: "Pizza" },
-    { imageUrl: chicken, title: "Chicken" },
-    { imageUrl: burger, title: "Burger" },
-    { imageUrl: rolls, title: "Rolls" },
-    { imageUrl: friedRice, title: "Fried Rice" },
-    { imageUrl: thali, title: "Thali" },
-    { imageUrl: noodles, title: "Noodles" },
-    { imageUrl: cake, title: "Cake" },
-    { imageUrl: iceCream, title: "Ice Cream" },
-    { imageUrl: momos, title: "Momos" },
-    { imageUrl: idli, title: "Idli" }
+    { imageUrl: biryani, title: "Biryani", page_url: "/kolkata/arsalan-park-street-area/order/20795" },
+    { imageUrl: pizza, title: "Pizza", page_url: "/kolkata/dominos-pizza-1-bara-bazar/order/18733272" },
+    { imageUrl: chicken, title: "Chicken", page_url: "/kolkata/kfc-new-market-area/order/207376" },
+    { imageUrl: burger, title: "Burger", page_url: "/kolkata/wow-momo-2-sealdah-area/order/19231719" },
+    { imageUrl: rolls, title: "Rolls", page_url: "/kolkata/india-restaurant-kidderpore/order/207471" },
+    { imageUrl: friedRice, title: "Fried Rice", page_url: "/kolkata/jai-hind-dhaba-paddapukur/order/20273" },
+    { imageUrl: thali, title: "Thali", page_url: "/kolkata/daily-bhoj-topsia/order/194606538" },
+    { imageUrl: noodles, title: "Noodles", page_url: "/kolkata/india-restaurant-kidderpore/order/207471" },
+    { imageUrl: cake, title: "Cake", page_url: "/kolkata/kwality-walls-frozen-dessert-and-ice-cream-shop-college-street/order/203595354" },
+    { imageUrl: iceCream, title: "Ice Cream", page_url: "/kolkata/kwality-walls-frozen-dessert-and-ice-cream-shop-college-street/order/203595354" },
+    { imageUrl: momos, title: "Momos", page_url: "/kolkata/wow-momo-2-sealdah-area/order/19231719" },
+    { imageUrl: idli, title: "Idli", page_url: "/kolkata/daily-bhoj-topsia/order/194606538" }
 ]
 const brands = [
-    { imageUrl: wowMomo, title: "WOW! Momo", time: "24 min" },
-    { imageUrl: dominosPizza, title: "Domino's Pizza", time: "40 min" },
-    { imageUrl: kfc, title: "KFC", time: "31 min" },
-    { imageUrl: burgerKing, title: "Burger King", time: "28 min" },
-    { imageUrl: arsalan, title: "Arsalan", time: "35 min" },
-    { imageUrl: pizzaHut, title: "Pizza Hut", time: "33 min" },
-    { imageUrl: kwalityWalls, title: "Kwality Wall’s Frozen Dessert and Ice Cream Shop", time: "38 min" },
-    { imageUrl: laPinozPizza, title: "La Pino'z Pizza", time: "30 min" },
-    { imageUrl: subway, title: "Subway", time: "27 min" },
-    { imageUrl: edabba, title: "Edabba", time: "29 min" },
+    { imageUrl: wowMomo, title: "WOW! Momo", time: "24 min", page_url: "/kolkata/wow-momo-2-sealdah-area/order/19231719" },
+    { imageUrl: dominosPizza, title: "Domino's Pizza", time: "40 min", page_url: "/kolkata/dominos-pizza-1-bara-bazar/order/18733272" },
+    { imageUrl: kfc, title: "KFC", time: "31 min", page_url: "/kolkata/kfc-new-market-area/order/207376" },
+    { imageUrl: burgerKing, title: "Burger King", time: "28 min", page_url: "/kolkata/burger-king-new-market-area/order/19867842" },
+    { imageUrl: arsalan, title: "Arsalan", time: "35 min", page_url: "/kolkata/arsalan-park-street-area/order/20795" },
+    { imageUrl: pizzaHut, title: "Pizza Hut", time: "33 min", page_url: "/kolkata/pizza-hut-howrah-station-area-howrah/order/249812" },
+    { imageUrl: kwalityWalls, title: "Kwality Wall’s Frozen Dessert and Ice Cream Shop", time: "38 min", page_url: "/kolkata/kwality-walls-frozen-dessert-and-ice-cream-shop-college-street/order/203595354" },
+    { imageUrl: laPinozPizza, title: "La Pino'z Pizza", time: "30 min", page_url: "/kolkata/la-pinoz-pizza-camac-street-area/order/195702102" },
+    { imageUrl: subway, title: "Subway", time: "27 min", page_url: "/kolkata/subway-theatre-road/order/18398878" },
+    { imageUrl: edabba, title: "Edabba", time: "29 min", page_url: "/kolkata/edabba-esplanade/order/19137878" },
 ]
 
 function Home({ filterType, setFilterType }) {
@@ -108,12 +109,12 @@ function Home({ filterType, setFilterType }) {
                         <div className='all-food-items' style={{ transform: `translate(${itemsScrollLength}px)` }}>
                             {
                                 inspirationFoods.map((item, index) => {
-                                    return <div className='item-container' key={index}>
+                                    return <Link className='item-container' key={index} to={item.page_url}>
                                         <div className='item-image-div'>
                                             <GenerateImage url={item.imageUrl} alt={item.title} />
                                         </div>
                                         <span className='item-title'>{item.title}</span>
-                                    </div>
+                                    </Link>
                                 })
                             }
                         </div>
@@ -131,13 +132,13 @@ function Home({ filterType, setFilterType }) {
                         <div className='all-brands' style={{ transform: `translate(${brandsScrollLength}px)` }}>
                             {
                                 brands.map((brand, index) => {
-                                    return <div className='brand-container' key={index}>
+                                    return <Link className='brand-container' key={index} to={brand.page_url}>
                                         <div className='brand-image-div'>
                                             <GenerateImage url={brand.imageUrl} alt={brand.title} />
                                         </div>
                                         <span className='brand-title'>{brand.title}</span>
                                         <span className='brand-time'>{brand.time}</span>
-                                    </div>
+                                    </Link>
                                 })
                             }
                         </div>

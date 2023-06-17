@@ -1242,7 +1242,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 20426053,
+            "resId": 204260530,
             "name": "King's Bakery",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/3/20426053/9015999f85fffdce7a30b7c2ba3b2781_o2_featured_v2.jpg"
@@ -1394,7 +1394,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19127034,
+            "resId": 191270342,
             "name": "Domino's Pizza",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/2/20172/e8cf1c58f2bb217f3d85ff50b7fe39a3_o2_featured_v2.jpg"
@@ -2042,7 +2042,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19672542,
+            "resId": 1967254240,
             "name": "Mama Mia!",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/1/20951/5600d2a50fc59c17794efe7e04c4e110_o2_featured_v2.jpg"
@@ -2357,7 +2357,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 18761176,
+            "resId": 187611761,
             "name": "Lazeez Biryani",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/6/18761176/ac0241893f90662ae294c580d014984c_o2_featured_v2.jpg"
@@ -2505,7 +2505,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 18611063,
+            "resId": 186110639,
             "name": "WOW! Momo",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/0/21060/b46307a6a28d24ecf69d5ec83ee9d451_o2_featured_v2.jpg"
@@ -2654,7 +2654,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19661056,
+            "resId": 196610562,
             "name": "Roy Pizza House",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/6/19661056/b407934bf1e0fa1c225a9c94c5458698_o2_featured_v2.jpg"
@@ -2807,7 +2807,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 20287,
+            "resId": 207376,
             "name": "KFC",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/7/20287/0b79e39ffc2e3770f3b66b26c0e6f4fd_o2_featured_v2.jpg"
@@ -2915,14 +2915,14 @@ export const restaurants = [
             "hasOnlineOrdering": true,
             "actionInfo": {
                 "text": "Order Now",
-                "clickUrl": "/kolkata/kfc-park-street-area/order"
+                "clickUrl": "/kolkata/kfc-new-market-area/order"
             }
         },
         "gold": [],
         "takeaway": [],
         "cardAction": {
             "text": "",
-            "clickUrl": "/kolkata/kfc-park-street-area/order",
+            "clickUrl": "/kolkata/kfc-new-market-area/order",
             "clickActionDeeplink": ""
         },
         "distance": "236 m",
@@ -2970,7 +2970,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19094888,
+            "resId": 190948882,
             "name": "Pizza Hut",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/7/20407/edc92b9e7877ea851a3d6f1190d1580f_o2_featured_v2.jpg"
@@ -3438,7 +3438,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 20427960,
+            "resId": 204279604,
             "name": "Kwality Wall’s Frozen Dessert and Ice Cream Shop",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/3/19389263/75fb72db1f40ce9c2d894f0c431c1ea9_o2_featured_v2.jpg"
@@ -3758,7 +3758,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 20747,
+            "resId": 207471,
             "name": "India Restaurant",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/7/20747/29926b03a02b4d3ff9658158c62b69b4_o2_featured_v2.jpg"
@@ -4706,7 +4706,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19638208,
+            "resId": 196382089,
             "name": "Momo Raja",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/8/19638208/fddcfb41f0fb5f932e41073c142e3289_o2_featured_v2.jpg"
@@ -7166,7 +7166,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19570210,
+            "resId": 195702102,
             "name": "La Pino'z Pizza",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/3/19264953/54b6de34323395a3b10897e48bd2a6e5_o2_featured_v2.jpg"
@@ -7481,7 +7481,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19090659,
+            "resId": 190906592,
             "name": "Ovenstory Pizza",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/9/19090659/a637f7be26b117b3950c3b4d3b505cd8_o2_featured_v2.jpg"
@@ -7629,7 +7629,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19733402,
+            "resId": 197334025,
             "name": "New Arsalan Biryani",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/2/19733402/4b032bbcd46e4db034cfebab158a720f_o2_featured_v2.jpg"
@@ -8079,7 +8079,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19500841,
+            "resId": 195008414,
             "name": "NIC Ice Creams",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/3/19319293/95c7320d1e70e7f38c4de7ed791f7174_o2_featured_v2.jpg"
@@ -10127,7 +10127,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 18627036,
+            "resId": 1862703640,
             "name": "Crazy 4 Cakes",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/6/18627036/4cfbd906e96dda2510bc199475dad8bc_o2_featured_v2.jpg"
@@ -10742,7 +10742,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 18531167,
+            "resId": 185311679,
             "name": "Momo I Am",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/8/18198678/e0a67db03059236f2e00d48602bfb15f_o2_featured_v2.jpeg"
@@ -12380,7 +12380,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19564930,
+            "resId": 195649301,
             "name": "Biryani By Kilo",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/9/19359209/5d15719f30f3265ad467ceb50bf40bbb_o2_featured_v2.jpg"
@@ -12533,7 +12533,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19077379,
+            "resId": 190773791,
             "name": "New Royal Biryani",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/9/19077379/6a481458d372bab76b544c785188a6ff_o2_featured_v2.jpg"
@@ -12674,7 +12674,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19543765,
+            "resId": 195437654,
             "name": "Natural Ice Cream",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/6/18589546/d5f8434658e842f3570ebf21788389ab_o2_featured_v2.jpg"
@@ -13165,7 +13165,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 22833,
+            "resId": 228335,
             "name": "Adil Biryani Centre",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/3/22833/c84a3794649ec3a804f3e9961fbdcbc8_o2_featured_v2.jpg"
@@ -13467,7 +13467,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 20309105,
+            "resId": 203091052,
             "name": "Gusto Pizza",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/5/19519065/5a5827792b91cf5da2baa64e01c31698_o2_featured_v2.jpg"
@@ -13609,7 +13609,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 20282126,
+            "resId": 202821269,
             "name": "Wow! Chicken by Wow! Momo",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/5/20064535/fcc1e44bbd3ab0a80351f4f6fd266a45_o2_featured_v2.jpg"
@@ -14700,7 +14700,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 20043399,
+            "resId": 200433994,
             "name": "Keventers - Milkshakes & Desserts",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/3/18343753/1292d8dc5ae36a28e17522cae1d1c6d8_o2_featured_v2.jpg"
@@ -16956,7 +16956,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19365680,
+            "resId": 193656805,
             "name": "Paradise Biryani",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/6/19319656/a017447ca4762da747f14d84c54240a8_o2_featured_v2.jpg"
@@ -17265,7 +17265,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19805846,
+            "resId": 198058464,
             "name": "Rollick- Ice Creams, Cakes & Desserts",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/8/18325258/df2aa669482f892de17fc95974a12d4b_o2_featured_v2.jpg"
@@ -17572,7 +17572,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19214678,
+            "resId": 192146781,
             "name": "New Taj Biryani",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/8/19214678/d499b2913808729e8cb03a553a01cf53_o2_featured_v2.jpg"
@@ -17715,7 +17715,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19963205,
+            "resId": 199632050,
             "name": "7th Heaven",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/3/18725593/e24f9806143b0aa82a94662245c92c28_o2_featured_v2.jpg"
@@ -17866,7 +17866,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 18801010,
+            "resId": 188010101,
             "name": "The Biryani Inc.",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/9/18783239/a6e017425993412ae45a5b223a831646_o2_featured_v2.jpg"
@@ -19598,7 +19598,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19638208,
+            "resId": 196382089,
             "name": "Momo Raja",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/8/19638208/fddcfb41f0fb5f932e41073c142e3289_o2_featured_v2.jpg"
@@ -20496,7 +20496,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19661056,
+            "resId": 196610562,
             "name": "Roy Pizza House",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/6/19661056/b407934bf1e0fa1c225a9c94c5458698_o2_featured_v2.jpg"
@@ -20935,7 +20935,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 18541626,
+            "resId": 185416260,
             "name": "Bagels",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/chains/6/18541626/196fc90897b9a591867267f7dc5b8683_o2_featured_v2.jpg"
@@ -21200,7 +21200,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19498444,
+            "resId": 194984440,
             "name": "The Cake Boutique",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/4/19498444/2fe5365999c49d71c0dc1f8378ef93de_o2_featured_v2.jpg"
@@ -21934,7 +21934,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 20282435,
+            "resId": 202824350,
             "name": "Crazy 4 Cakes",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/5/20282435/a9c4b44d1a879f13c900ef2032e140d1_o2_featured_v2.jpg"
@@ -22069,7 +22069,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 20635826,
+            "resId": 206358264,
             "name": "Red Cow Dairy World - Ice Cream & More",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/6/20635826/e71d05a9e36428056419954e105597f4_o2_featured_v2.jpg"
@@ -22209,7 +22209,7 @@ export const restaurants = [
     {
         "type": "restaurant",
         "info": {
-            "resId": 19294333,
+            "resId": 1929433304,
             "name": "Cakerica",
             "image": {
                 "url": "https://b.zmtcdn.com/data/pictures/3/19294333/dc1a2a8057a4e27e21cb4fed8e15215d_o2_featured_v2.jpeg"

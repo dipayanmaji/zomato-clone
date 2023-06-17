@@ -12,6 +12,7 @@ export const CartItemSlice = createSlice({
         cartInitialization: (state, action) => {
             state.items = action.payload;
             localStorage.setItem("cart_items", JSON.stringify(state.items));
+            updateCartItems();
         },
 
         addToCart: (state, action) => {

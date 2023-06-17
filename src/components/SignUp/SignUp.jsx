@@ -8,6 +8,7 @@ import { HiCheck } from 'react-icons/hi';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
 import { login } from '../Redux/LoginUserSlice';
+import { cartInitialization } from '../Redux/CartItemSlice';
 
 const SignUp = ({ setSignUp, setLogIn }) => {
     const [userData, setUserData] = useState({});
@@ -133,6 +134,7 @@ const SignUp = ({ setSignUp, setLogIn }) => {
     const loginHandler = () => {
         setSignUp(false);
         dispatch(login(userData));
+        dispatch(cartInitialization(localStorage.getItem("cart_items") ? JSON.parse(localStorage.getItem("cart_items")) : {}));
     }
 
     useEffect(() => {

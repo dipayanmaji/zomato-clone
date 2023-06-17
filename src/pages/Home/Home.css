@@ -115,6 +115,7 @@
     align-items: center;
     gap: 0.5rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .all-food-items .item-container .item-image-div,
