@@ -8,6 +8,7 @@ import { GoInfo } from 'react-icons/go';
 import { MdOutlineArrowBackIos } from 'react-icons/md';
 import RestaurantItems from '../../components/RestaurantItems/RestaurantItems';
 import RestaurantLoading from '../../components/RestaurantLoading/RestaurantLoading';
+import CartView from '../../components/CartView/CartView';
 
 const Restaurant = () => {
     const params = useParams();
@@ -120,6 +121,9 @@ const Restaurant = () => {
                     :
                     <RestaurantLoading />
             }
+
+            {/* cart view */}
+            <CartView />
         </div>
     )
 }

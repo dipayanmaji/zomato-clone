@@ -52,7 +52,8 @@ const Cart = () => {
                                     <div className='amount'>₹
                                         {
                                             Object.keys(cartItems).reduce((total, item) => {
-                                                return total += cartItems[item].price * cartItems[item].quantity;
+                                                total += cartItems[item].price * cartItems[item].quantity;
+                                                return parseFloat((total).toFixed(2));
                                             }, 0)
                                         }
                                     </div>

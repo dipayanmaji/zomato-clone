@@ -31,6 +31,7 @@ import laPinozPizza from "../../utils/images/brands/laPinozPizza.avif"
 import subway from "../../utils/images/brands/subway.avif"
 import edabba from "../../utils/images/brands/edabba.avif"
 import { Link } from 'react-router-dom';
+import CartView from '../../components/CartView/CartView';
 
 const inspirationFoods = [
     { imageUrl: biryani, title: "Biryani", page_url: "/kolkata/arsalan-park-street-area/order/20795" },
@@ -150,11 +151,14 @@ function Home({ filterType, setFilterType }) {
             {/* Restaurants */}
             <Restaurants filterType={filterType} />
 
+            {/* go to top button */}
             <button className='goToTop-btn' style={{
                 opacity: displayGoToTopBtn && 1,
                 visibility: displayGoToTopBtn && "visible"
             }} onClick={() => window.scrollTo(0, 0)}><MdKeyboardArrowUp /></button>
 
+            {/* cart view */}
+            <CartView />
         </div>
     )
 }

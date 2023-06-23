@@ -18,7 +18,7 @@ const RestaurantItems = ({ menuList, orderDetails }) => {
             offsets[e.id] = e;
         }
         catch (err) {
-            console.log(err);
+            // console.log(err);
         }
     }, [])
 

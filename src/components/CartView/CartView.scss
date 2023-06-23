@@ -1,0 +1,47 @@
+.cart-view-container {
+    width: 100%;
+    min-width: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+
+    .cart-view {
+        width: 100%;
+        max-width: 68.8rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0.5rem;
+        background-color: #60b246;
+
+        .left-section {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-weight: 600;
+            color: rgb(255, 255, 255);
+            flex-wrap: wrap;
+            font-size: 1.2rem;
+        }
+
+        .view-cart {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap-reverse;
+            gap: 0.5rem;
+            color: rgb(255, 255, 255);
+            font-size: 1.2rem;
+            font-weight: 600;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
