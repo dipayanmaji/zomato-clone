@@ -10,7 +10,7 @@ const CartView = () => {
 
     return (
         <>
-            {Object.keys(cartItems).length && <div className='cart-view-container'>
+            {Object.keys(cartItems).length > 0 && <div className='cart-view-container'>
                 <div className='cart-view'>
                     <div className='left-section'>
                         <span className='item-number'>{Object.keys(cartItems).length} {Object.keys(cartItems).length > 1 ? "Items" : "Item"}</span>
