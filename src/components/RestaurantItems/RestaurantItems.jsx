@@ -10,7 +10,7 @@ const RestaurantItems = ({ menuList, orderDetails }) => {
 
     const categoryClicked = (e) => {
         setCurrCategory(e.target.id);
-        window.scrollTo(0, offsets[e.target.id].offsetTop - 130);
+        window.scrollTo(0, offsets[e.target.id].offsetTop - 55); // 55px down from top
     }
 
     const refHandler = useCallback((e) => {
@@ -25,7 +25,7 @@ const RestaurantItems = ({ menuList, orderDetails }) => {
     document.addEventListener("scroll", scrollHandler);
     function scrollHandler() {
         for (const key in offsets) {
-            if (offsets[key].offsetTop - 136 <= window.pageYOffset) {
+            if (offsets[key].offsetTop - 60 <= window.pageYOffset) { // 60px down from top
                 setCurrCategory(key);
             }
         }

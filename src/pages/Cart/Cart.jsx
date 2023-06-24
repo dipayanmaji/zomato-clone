@@ -1,5 +1,5 @@
 import './Cart.scss';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import CartItem from '../../components/CartItem/CartItem';
 import GenerateImage from '../../components/GenerateImage/GenerateImage';
@@ -27,6 +27,10 @@ const Cart = () => {
         }
         setDisplayProtal(true);
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
 
     return (
         <div className='cart-page'>
