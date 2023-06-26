@@ -4,6 +4,9 @@
 
 <h1></h1>
 
+![Screenshot (660)](https://github.com/dipayanmaji/zomato-clone/assets/121128467/c65a295e-131e-40a9-b228-ad9f40dfda2f)
+
+<h1></h1>
 <h1>Features</h1>
 <ul>
   <li>Order food online from restaurants.</li>
@@ -30,3 +33,6 @@
   <li>Zomato Clone is online food ordering app.</li>
   <li>This site is build with lots of creative UI.</li>
 </ul>
+<h1></h1>
+
+![Screenshot (659)](https://github.com/dipayanmaji/zomato-clone/assets/121128467/1ee410b0-3514-4fb3-a121-0e749fac201f)
