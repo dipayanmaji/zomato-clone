@@ -201,12 +201,12 @@ const SignUp = ({ setSignUp, setLogIn }) => {
                             <hr />
 
                             {/* go to login */}
-                            {!disableSignup && <section className='alternate'>{"Already have an account? "}
+                            {!disableSignup ? <section className='alternate'>{"Already have an account? "}
                                 <span className='text-link' onClick={() => {
                                     setSignUp(false);
                                     setLogIn(true);
                                 }}>Log in</span>
-                            </section>}
+                            </section> : <span className='disclaimer'>If form didn't work within 30 seconds, go back and try again</span>}
                         </>
                         :
                         <>

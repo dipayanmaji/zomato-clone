@@ -173,12 +173,12 @@ const LogIn = ({ setLogIn, setSignUp }) => {
                             <hr />
 
                             {/* go to sign up */}
-                            {!disableLogin && <section className='alternate'>{"New to Zomato Clone? "}
+                            {!disableLogin ? <section className='alternate'>{"New to Zomato Clone? "}
                                 <span className='text-link' onClick={() => {
                                     setLogIn(false);
                                     setSignUp(true);
                                 }}>Create account</span>
-                            </section>}
+                            </section> : <span className='disclaimer'>If form didn't work within 30 seconds, go back and try again</span>}
                         </>
                         :
                         <>
