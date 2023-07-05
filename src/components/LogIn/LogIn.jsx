@@ -1,5 +1,5 @@
 import '../SignUp/SignUp.scss';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { HiOutlineX, HiCheck } from 'react-icons/hi';
 import { AiFillEyeInvisible, AiFillEye } from 'react-icons/ai';
 import { checkEmali } from '../../utils/validation/validation';
@@ -30,6 +30,7 @@ const LogIn = ({ setLogIn, setSignUp }) => {
     const [wrongPassword, setWrongPassword] = useState(false);
     const [loginSuccess, setLoginSuccess] = useState(false);
     const [disableLogin, setDisableLogin] = useState(false);
+    const emailRef = useRef();
 
     const dispatch = useDispatch();
     const loginUser = useSelector((state) => state.login_user.user);
@@ -129,6 +130,7 @@ const LogIn = ({ setLogIn, setSignUp }) => {
 
     useEffect(() => {
         setRemoveScale(true);
+        emailRef.current.focus();
         document.body.style.overflow = "hidden";
         return () => {
             document.body.style.overflow = "auto";
@@ -149,7 +151,7 @@ const LogIn = ({ setLogIn, setSignUp }) => {
                             {/* email */}
                             <div className="email">
                                 <section className={`input-container ${valueState.email && focusState.email && 'green'} ${errorState.email && 'red'}`}>
-                                    <input id='email' type='text' onFocus={inputFocusHandler} onBlur={inputBlurHandler} value={valueState.email} onChange={inputChangeHandler} autoComplete='off' />
+                                    <input id='email' type='text' onFocus={inputFocusHandler} onBlur={inputBlurHandler} value={valueState.email} onChange={inputChangeHandler} autoComplete='off' ref={emailRef} />
                                     <label htmlFor='email' className={(focusState.email || valueState.email) && `label-style ${valueState.email && focusState.email && 'green'} ${errorState.email && 'red'}`}>Email</label>
                                     {valueState.email && <span className='cross' onClick={() => setValueState({ ...valueState, email: "" })}><HiOutlineX /></span>}
                                 </section>

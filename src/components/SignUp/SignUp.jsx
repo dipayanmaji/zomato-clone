@@ -1,5 +1,5 @@
 import './SignUp.scss';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { HiOutlineX } from 'react-icons/hi';
 import { AiFillEyeInvisible, AiFillEye } from 'react-icons/ai';
 import { checkEmali, checkFullName, checkPassword } from '../../utils/validation/validation';
@@ -34,6 +34,8 @@ const SignUp = ({ setSignUp, setLogIn }) => {
         email: false,
         password: false
     });
+
+    const fullNameRef = useRef();
 
     const dispatch = useDispatch();
 
@@ -139,6 +141,7 @@ const SignUp = ({ setSignUp, setLogIn }) => {
 
     useEffect(() => {
         setRemoveScale(true);
+        fullNameRef.current.focus();
         document.body.style.overflow = "hidden";
         return () => {
             document.body.style.overflow = "auto";
@@ -159,7 +162,7 @@ const SignUp = ({ setSignUp, setLogIn }) => {
                             {/* fullname */}
                             <div className="full-name">
                                 <section className={`input-container ${valueState.fullName && focusState.fullName && 'green'} ${errorState.fullName && 'red'}`}>
-                                    <input id='fullName' type='text' onFocus={inputFocusHandler} onBlur={inputBlurHandler} value={valueState.fullName} onChange={inputChangeHandler} autoComplete='off' />
+                                    <input id='fullName' type='text' onFocus={inputFocusHandler} onBlur={inputBlurHandler} value={valueState.fullName} onChange={inputChangeHandler} autoComplete='off' ref={fullNameRef} />
                                     <label htmlFor='fullName' className={(focusState.fullName || valueState.fullName) && `label-style ${valueState.fullName && focusState.fullName && 'green'} ${errorState.fullName && 'red'}`}>Full Name</label>
                                     {valueState.fullName && <span className='cross' onClick={() => setValueState({ ...valueState, fullName: "" })}><HiOutlineX /></span>}
                                 </section>
