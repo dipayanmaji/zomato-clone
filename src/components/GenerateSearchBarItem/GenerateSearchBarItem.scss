@@ -1,0 +1,43 @@
+.search-bar-item {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: white;
+
+    .image-container {
+        width: 5rem;
+        height: 5rem;
+        min-width: 5rem;
+        border-radius: 0.3rem;
+        overflow: hidden;
+
+        img {
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+            border-radius: inherit;
+        }
+    }
+
+    .title {
+        margin: 0;
+        font-size: 1.1rem;
+        font-weight: 500;
+
+        .text {
+            font-size: 0.9rem;
+            color: rgb(156, 156, 156);
+        }
+    }
+
+    &:hover {
+        background-color: rgb(246, 246, 246);
+    }
+}

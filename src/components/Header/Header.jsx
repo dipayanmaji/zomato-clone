@@ -13,16 +13,43 @@ import { FaUserAlt } from 'react-icons/fa';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import { logout } from '../Redux/LoginUserSlice';
 import { clearCart } from '../Redux/CartItemSlice';
+import { restaurants } from '../../utils/restaurants/restaurants';
+import GenerateSearchBarItem from '../GenerateSearchBarItem/GenerateSearchBarItem';
 
 const Header = () => {
     const [displayBarOptions, setDisplayBarOptions] = useState(false);
     const [signUp, setSignUp] = useState(false);
     const [logIn, setLogIn] = useState(false);
     const [displayLogOut, setDisplayLogOut] = useState(false);
+    const [searchValue, setSearchValue] = useState("");
+    const [searchBarItems, setSearchBarItems] = useState([]);
 
     const cartItems = useSelector((state) => state.cart_items.items);
     const loginUser = useSelector((state) => state.login_user.user);
     const dispatch = useDispatch();
+
+    const searchbarHandler = (e) => {
+        let value = e.target.value;
+        setSearchValue(value);
+        value = value.trim();
+        let regexValue;
+
+        try {
+            regexValue = new RegExp(value, 'i');
+        }
+        catch {
+            regexValue = new RegExp("", 'i');
+            value = "";
+        }
+
+        const matchesRestaurants = restaurants.filter((restaurant) => {
+            return regexValue.test(restaurant.info.name) || regexValue.test(restaurant.info.cuisine.map((cuisineName) => cuisineName.name));
+        });
+
+        if (value == "") setSearchBarItems([]);
+        else setSearchBarItems(matchesRestaurants.slice(0, 10));
+        // console.log(matchesRestaurants);
+    }
 
     const userHandler = () => {
         setDisplayLogOut(!displayLogOut);
@@ -57,7 +84,24 @@ const Header = () => {
 
                     <div className='search'>
                         <span id='search-icon'><CiSearch /></span>
-                        <input placeholder='Search for restaurant, cuisine or a dish' readOnly />
+                        <input onChange={searchbarHandler} value={searchValue} placeholder='Search for restaurant, cuisine or a dish' />
+                        {searchValue && <div className='search-bar-items-container'>
+                            {
+                                searchBarItems.length > 0 ?
+                                    <div className='search-bar-items'>
+                                        {
+                                            searchBarItems.map((item, index) => {
+                                                return <GenerateSearchBarItem key={index} restaurant={item} setSearchValue={setSearchValue} setDisplayBarOptions={setDisplayBarOptions} />
+                                            })
+                                        }
+                                    </div>
+                                    :
+                                    <div className='not-match-container'>
+                                        <p className='oops'>Oops!</p>
+                                        <span className='text'>We could not understand what you mean, try rephrasing the query.</span>
+                                    </div>
+                            }
+                        </div>}
                     </div>
                 </div>
 
@@ -118,7 +162,24 @@ const Header = () => {
 
                     <div className='search'>
                         <span id='search-icon'><CiSearch /></span>
-                        <input placeholder='Search for restaurant, cuisine or a dish' readOnly />
+                        <input onChange={searchbarHandler} value={searchValue} placeholder='Search for restaurant, cuisine or a dish' />
+                        {searchValue && <div className='search-bar-items-container'>
+                            {
+                                searchBarItems.length > 0 ?
+                                    <div className='search-bar-items'>
+                                        {
+                                            searchBarItems.map((item, index) => {
+                                                return <GenerateSearchBarItem key={index} restaurant={item} setSearchValue={setSearchValue} setDisplayBarOptions={setDisplayBarOptions} />
+                                            })
+                                        }
+                                    </div>
+                                    :
+                                    <div className='not-match-container'>
+                                        <p className='oops'>Oops!</p>
+                                        <span className='text'>We could not understand what you mean, try rephrasing the query.</span>
+                                    </div>
+                            }
+                        </div>}
                     </div>
                 </div>
             </div>
